@@ -1,0 +1,146 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}  
+\usepackage{tikz}
+\usepackage{circuitikz} 
+\usepackage{caption}
+\def\inputGnumericTable{}              
+\usepackage[latin1]{inputenc}          
+\usepackage{color}                    
+\usepackage{array}                     
+\usepackage{longtable}                 
+\usepackage{calc}                     \usepackage{multirow}                  
+\usepackage{hhline}                    
+\usepackage{ifthen}                    
+\usepackage{lscape}
+\usepackage{amsmath}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+%bibliographystyle(ieeetr}
+\begin{document}
+\bibliographystyle{ieeetr}
+\vspace{3cm}
+
+\title{Assignment-1}
+\author{AI24BTECH11002 - K.AKSHAY TEJA}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\large\large\section{\textbf{SECTION A - JEE ADVANCED/ IIT-JEE}}\small\small
+
+\textbf{E. Subjective Problems}
+ \begin{enumerate}
+    
+\item   Evaluate the following $\int\frac{dx}{x^2(x^4 +1)^\frac{3}{4}} $ 
+         \hfill  ${\brak{1984 - 2 Marks}}  $
+\item   Evaluate the following $\int \sqrt{\frac{1 - \sqrt{x}}{1 + \sqrt{x}}}   dx$.\hfill
+  {$\brak{1985 - 2\frac{1}{2} Marks}$}  
+
+
+\item Evaluate: $\int$$[\frac{(cos2x)^{1/2}}{sin x})]dx$ \hfill  {$\brak{1987 - 6 Marks}$} 
+
+\item   Evaluate {$\int(\sqrt{tan x}+\sqrt{cot x})dx$}      
+  \hfill
+$\brak{1989 - 3 Marks }$
+ 
+
+\item  Find the indefinite integral $\int$$(\frac{1}{\sqrt[3]{x} + \sqrt[4]{4}}+\frac{\ln (1+\sqrt[6]{x})}{\sqrt[3]{x}+\sqrt{x}}$  \hfill   {$\brak{1992 - 4 Marks)}$} 
+
+\item Find the indefinite integral \(\int \cos 2\theta \ln \frac{\cos \theta + \sin \theta}{\cos \theta - \sin \theta}   d\theta\) \hfill  {$\brak{1994 - 5 Marks)}$}
+
+
+\item  Evaluate $\int\frac{(x + 1)}{x(1 + xe^x)^2}dx  \hfill { \brak{1996 - 2 Marks}}$
+
+\item Integrate $\int\frac{x^{3}+3x 2}{(x^{2}+ 1)^{2}(x + 1)}dx$ \hfill  $ {\brak{2001 - 5 Marks}}$
+
+\item   Evaluate $\int \sin^{-1} (\frac{2x + 2}{\sqrt{4x^{2}+8x+13}})dx$    \hfill    ${\brak{2001 - 5 Marks}}$
+
+\item  For any natural number m , evaluate ${\int(x^{3m} + x^{2m}+x^{m})(2x^{2m}+3x^{m}+6)^{1/m}dx,x>0}$    \hfill   $\brak{2002 - 5 Marks}$ 
+ 
+\end{enumerate}
+
+\textbf{ H. Assertion \& Reason Type Questions}\\
+ 
+\begin{enumerate}
+\item   Let $F(x)$ be an indefinite integral of $\sin^2 x$
+
+STATEMENT-1: The function $F(x)$ satisfies $F(x+\pi)=F(x)$for all real x. because\\
+STATEMENT-2: $\sin^2$ (x + $\pi$ ) = $\sin^2 x$ for all real $x$.   \hfill$     {\brak{2007 - 3 marks}}$
+  
+    \begin{enumerate}
+    
+ \item Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1.
+\item Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1
+ \item Statement-1 is True, Statement-2 is False
+\item Statement-1 is False, Statement-2 is True
+\end{enumerate}
+\end{enumerate} 
+
+\large\large\section{\textbf{{SECTION-B Jee Main/AIEEE}}}\small\small
+
+ \begin{enumerate}
+\item If$\int$$\frac{\sin x}{\sin (x-\alpha}dx = Ax+B\log \sin (x-\alpha)+C,$then value of $(A,B)$ is    \hfill        {\sbrak{2004}}
+\begin{enumerate}
+       \item { $(-\cos \alpha, \sin \alpha)$ }  
+       \item  $(\cos \alpha,\sin \alpha)$
+       \item    $(-\sin \alpha,\cos \alpha)$   
+       \item  $(\sin \alpha,\cos \alpha)$ 
+\end{enumerate}
+
+\item   $\int\frac{dx}{\cos x-\sin x)}$ is equal to             \hfill {\sbrak{2004}}
+      \begin{enumerate}
+\item  $\frac{1}{\sqrt{2}}\log \left|\tan \left(\frac{x}{2}+\frac{3\pi}{8}\right)\right|+C$
+
+\item  $\frac{1}{\sqrt{2}}\log \left|\cot \left(\frac{x}{2}\right)\right|+C$ 
+
+\item  {$\frac{1}{\sqrt{2}}\log \left|\tan \left(\frac{x}{2}-\frac{3\pi}{8}\right)\right|+C$}
+
+\item  {$\frac{1}{\sqrt{2}}\log \left|\tan \left(\frac{x}{2}-\frac{\pi}{8}\right)\right|+C$}
+\end{enumerate}
+\item  $\int\left\{ \frac{(\log x-1)}{1+(\log x)^2}\right\}^2 dx$ is equal to     \hfill \sbrak{2005}
+ \begin{enumerate} 
+\item  $\frac{\log x}{(\log x)^2 +1}+C$         
+\item  $\frac{x}{x^2+1}+C$
+\item  $\frac{xe^x}{1+x^2}+C$                       
+\item  $\frac{x}{(\log x)^2+1}+C$
+\end{enumerate}
+\item $\int \frac{dx}{\cos x + \sqrt{3} \sin x}$ equals \hfill \sbrak{2007}
+  \begin{enumerate}
+\item  $\log \tan \left(\frac{x}{2}+\frac{\pi}{12}\right)+C$
+\item  $\log \tan \left(\frac{x}{2}-\frac{\pi}{12}\right)+C$
+\item  $\frac{1}{2} \log \tan \left(\frac{x}{2}+\frac{\pi}{12}\right)+C$
+\item  $\frac{1}{2} \log \tan \left(\frac{x}{2}+\frac{\pi}{12}\right)+C$
+\end{enumerate}
+ \end{enumerate}
+
+\end{document}
