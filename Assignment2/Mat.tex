@@ -1,54 +1,91 @@
+ \let\negmedspace\undefined
+\let\negthickspace\undefined
 \documentclass[journal]{IEEEtran}
-\usepackage[a5paper, margin=10mm]{geometry}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
 %\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
 \usepackage{tfrupee} % Include tfrupee package
-
 
 \setlength{\headheight}{1cm} % Set the height of the header box
 \setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
 
-
-%\usepackage[a5paper, top=10mm, bottom=10mm, left=10mm, right=10mm]{geometry}
-
-%
-\usepackage{float}
-\usepackage{pythontex}
-\usepackage{graphicx}
-\usepackage{gensymb}
 \usepackage{gvv-book}
 \usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\allowdisplaybreaks
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{1-1.5-27}
+\author{AI24BTECH11002 - K.AKSHAY TEJA}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
 \setlength{\intextsep}{10pt} % Space between text and floats
 
-\makeindex
 
-\begin{document}
-\bibliographystyle{IEEEtran}
-\onecolumn
-\newpage
-\title{Assignment-2}
-\author{AI24BTECH11002 - K.AKSHAY TEJA}
-\maketitle
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
 
-
-
-
-\section{Vector Arithmetic}
-\begin{enumerate}
- \item If the coordinates of points $\vec{A}$ and $\vec{B}$ are \brak{-2,-2} and \brak{2,-4} respectively, find the coordinates of $\vec{P}$ such that $AP = \frac{3}{7} AB$, and $\vec{P}$ lies on the line segment $AB$. 
+\textbf{Question:}\\
+ If the coordinates of points $\vec{A}$ and $\vec{B}$ are \brak{-2,-2} and \brak{2,-4} respectively, find the coordinates of $\vec{P}$ such that $AP = \frac{3}{7} AB$, and $\vec{P}$ lies on the line segment $AB$. 
  
     \hfill {(10, 2015)}
 
  \solution
- Given, coordinates of $\vec{A}$ are \brak{-2,-2} and coordinates of $\vec{B}$ are \brak{2,-4}.$\vec{P}$ divides $\vec{AB}$ in ratio 3:4.So, k=$\frac{3}{4}$
- \begin{align*}
-	 \implies \vec{P} &= \frac{\frac{3}{4}\vec{B} + \vec{A}}{\frac{3}{4} + 1} \tag{Setion Formula}\\
-	 &= \myvec{\frac{-2}{7}\\\frac{-20}{7}} 
- \end{align*}
-		\begin{figure}[h]    
+ \begin{table}[h!]
+	 \centering
+	 \input{Tables/Table.tex} 
+	\caption{Coordinates of points $A$ and $B$}
+	 \label{tab:Coordinates}
+\end{table}
+
+Given, $AP = \frac{3}{7} AB$.That means $P$ divides $AB$ in ratio 3:4\\
+
+Using section formula, 
+\begin{align}
+	\vec{P}&=\frac{\vec{A} + k\vec{B}}{1 + k}\\	
+\vec{P}&=\frac{1}{1+\frac{3}{4}}\brak{\myvec{-2\\-2}+\frac{3}{4}\myvec{2\\-4}}\\
+	&=\myvec{\frac{-2}{7}\\[1pt] \frac{-20}{7}}
+\end{align}
+		\begin{figure}[h!]    
 	  \begin{center}
-		\includegraphics[width=0.8\textwidth]{Fig.pdf}
+		\includegraphics[width=0.435\textwidth]{Figs/Fig.png}
+		\label{Graph}
+		  \caption{Plot of points A,B and P}  
 	 \end{center}	  
 	\end{figure}
-\end{enumerate}
+
 \end{document}
 
