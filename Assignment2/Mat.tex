@@ -75,13 +75,15 @@ Given, $AP = \frac{3}{7} AB$.That means $P$ divides $AB$ in ratio 3:4\\
 
 Using section formula, 
 \begin{align}
-	\vec{P}&=\frac{\vec{A} + k\vec{B}}{1 + k}\\	
-\vec{P}&=\frac{1}{1+\frac{3}{4}}\brak{\myvec{-2\\-2}+\frac{3}{4}\myvec{2\\-4}}\\
-	&=\myvec{\frac{-2}{7}\\[1pt] \frac{-20}{7}}
+	\vec{P}&=\frac{1}{1 + k}\myvec{1 & k}\myvec{\vec{A}\\\vec{B}}\\[5pt]
+	\vec{P}&=\frac{1}{1+\frac{3}{4}}\myvec{1 & \frac{3}{4}}\myvec{-2 & 2\\-2 & -4}\\[5pt]
+	\vec{P}&=\frac{4}{7}\myvec{\frac{-1}{2} \\[2 pt] -5}\\[5pt]
+	&=\myvec{\frac{-2}{7} \\[2pt] \frac{-20}{7}}
 \end{align}
-		\begin{figure}[h!]    
+	\newpage
+	\begin{figure}[h!]    
 	  \begin{center}
-		\includegraphics[width=0.585\textwidth]{Figs/Fig.png}
+		\includegraphics[width=0.7\textwidth]{Figs/Fig.png}
 		\label{Graph}
 		  \caption{Plot of points A,B and P}  
 	 \end{center}	  
