@@ -36,4 +36,4 @@ ax.set_zlabel('Z')
 
 plt.title('Points P, Q and R')
 plt.grid(True)
-plt.savefig('/home/akshay-teja-kondi/gvv/Assignment3/fig')
+plt.savefig('/home/akshay-teja-kondi/gvv/Assignment3/fig/fig.png')
