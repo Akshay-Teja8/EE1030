@@ -9,9 +9,9 @@ int main(){
 
 	for(int i=0;i<numberOfValues;i++){
 		double t=(double)i/numberOfValues;
-		x_values[i]=P[0]+t*(Q[0]-P[0]);
-		y_values[i]=P[1]+t*(Q[1]-P[1]);
-		z_values[i]=P[2]+t*(Q[2]-P[2]);
+		x_values[i]=P[0]+t*(R[0]-P[0]);
+		y_values[i]=P[1]+t*(R[1]-P[1]);
+		z_values[i]=P[2]+t*(R[2]-P[2]);
 	}
 	   for (int i = 0; i < numberOfValues; i++) {
         printf("%.2f %.2f %.2f\n", x_values[i], y_values[i], z_values[i]);
