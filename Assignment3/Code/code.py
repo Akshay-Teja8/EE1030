@@ -24,9 +24,9 @@ ax.scatter(*P, color='r', label='P')
 ax.scatter(*Q, color='g', label='Q')
 ax.scatter(*R, color='b', label='R')
 
-ax.text(P[0]+0.2,P[1],P[2],'P',fontsize=15,color='black', ha='left')
-ax.text(Q[0]+0.2,Q[1],Q[2],'Q',fontsize=15,color='black', ha='left')
-ax.text(R[0]+0.2,R[1],R[2],'R',fontsize=15,color='black', ha='left')
+ax.text(P[0]+0.2,P[1],P[2],'P(-2,3,5)',color='black', ha='left')
+ax.text(Q[0]+0.2,Q[1],Q[2],'Q(1,2,3)',color='black', ha='left')
+ax.text(R[0]+0.2,R[1],R[2],'R(7,0,-1)',color='black', ha='left')
 
 ax.plot(x_values,y_values,z_values,color='k',label='Line through P,Q,R')
 
@@ -36,4 +36,4 @@ ax.set_zlabel('Z')
 
 plt.title('Points P, Q and R')
 plt.grid(True)
-plt.savefig('/fig/fig.png')
+plt.savefig('/home/akshay-teja-kondi/gvv/Assignment3/fig/fig.png')
