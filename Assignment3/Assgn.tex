@@ -66,15 +66,15 @@ Show that the points $\vec{P}=\myvec{-2\\3\\5},\vec{Q}=\myvec{1\\2\\3}$ and $\ve
  \begin{table}[h!]
 	 \centering
 	 \input{Tables/table.tex} 
-	 \caption{Coordinates of points $P,Q$ and $R$}
+	 \caption{Coordinates of points P,Q and R}
 	 \label{tab:Coordinates}
 \end{table}
 
 Points $\vec{P},\vec{Q}$ and $\vec{R}$ are collinear if 
 \begin{align}
 	\text{rank}\myvec{\vec{P} & \vec{Q} & \vec{R}}^\top = 2\\[5pt]
-	\implies \myvec{-2 & 3 & 5\\1 & 2 & 3\\7 & 0 & -1}\xleftrightarrow[]{R_2 \rightarrow 2R_2 + R_3} \myvec{-2 & 3 & 5\\0 & 7 & 11\\7 & 0 & -1}\\[5pt]
-	\xleftrightarrow[]{R_3 \rightarrow 2R_3 + 7R_1} \myvec{-2 & 3 & 5\\0 &7 & 11\\0 & 21 & 33} \xleftrightarrow[]{R_3 \rightarrow R_3 - 3R_2} \myvec{-2 & 3 & 5\\0 & 7 & 11\\0 & 0 & 0}
+	\implies \myvec{-2 & 3 & 5\\1 & 2 & 3\\7 & 0 & -1}\xleftrightarrow[]{R_2 \leftarrow 2R_2 + R_3} \myvec{-2 & 3 & 5\\0 & 7 & 11\\7 & 0 & -1}\\[5pt]
+	\xleftrightarrow[]{R_3 \leftarrow 2R_3 + 7R_1} \myvec{-2 & 3 & 5\\0 &7 & 11\\0 & 21 & 33} \xleftrightarrow[]{R_3 \leftarrow R_3 - 3R_2} \myvec{-2 & 3 & 5\\0 & 7 & 11\\0 & 0 & 0}
 \end{align}
 \newpage
 	\begin{figure}[h!]    
