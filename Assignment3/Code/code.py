@@ -10,12 +10,9 @@ P = np.array([-2, 3, 5])
 Q = np.array([1, 2, 3])
 R = np.array([7, 0, -1])
 
-x_values,y_values,z_values=[],[],[]
-for line in output:
-    x,y,z=map(float,line.split())
-    x_values.append(x)
-    y_values.append(y)  
-    z_values.append(z)
+store=np.array([list(map(float,line.split())) for line in output])
+x_values,y_values,z_values = store.T
+
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
