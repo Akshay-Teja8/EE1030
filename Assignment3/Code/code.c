@@ -2,7 +2,10 @@
 
 int main(){
 	double P[]={-2,3,5},Q[]={1,2,3},R[]={7,0,-1};
-
+	
+	printf("P %.2lf %.2lf %.2lf\n",P[0],P[1],P[2]);
+	printf("Q %.2lf %.2lf %.2lf\n",Q[0],Q[1],Q[2]);
+	printf("R %.2lf %.2lf %.2lf\n",R[0],R[1],R[2]);
 	int numberOfValues=100;
 
 	double x_values[numberOfValues],y_values[numberOfValues],z_values[numberOfValues];
