@@ -10,7 +10,7 @@ P = np.array([-2, 3, 5])
 Q = np.array([1, 2, 3])
 R = np.array([7, 0, -1])
 
-store=np.array([list(map(float,line.split())) for line in output])
+store=np.loadtxt(output)
 x_values,y_values,z_values = store.T
 
 
