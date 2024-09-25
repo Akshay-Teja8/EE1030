@@ -27,5 +27,6 @@ plt.axvline(0, color='black',linewidth=1)
 plt.gca().set_aspect('equal', adjustable='box')
 plt.title('Line with Direction and Normal Vectors')
 plt.grid(True)
+plt.legend()
 plt.savefig('/home/akshay-teja-kondi/gvv/Assignment4/Fig/fig.png')
 
