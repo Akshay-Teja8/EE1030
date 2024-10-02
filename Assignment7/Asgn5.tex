@@ -41,7 +41,7 @@
 \bibliographystyle{IEEEtran}
 \vspace{3cm}
 
-\title{9-9.2-22}
+\title{9-9.2-38}
 \author{AI24BTECH11002 - K.AKSHAY TEJA}
 % \maketitle
 % \newpage
@@ -59,41 +59,38 @@
 
 
 \textbf{Question}:\\
-Find the area bounded by the curve  $x^{2} = 4y$ and the line $x + 2 = 4y$.
+Find the area bounded by the curve $y = x|x|, x$-axis and the ordinates $x=-1$ and $x=1$.
 
 
-\solution
-\begin{table}[h!]
-	\centering
-	\input{Table/table.tex}
-	\caption{Information}
-	\label{tab:9-9.2-22}
-\end{table}
+ \solution
+ \begin{table}[h!]
+ 	\centering
+ 	\input{Table/table.tex}
+ 	\caption{Information}
+ 	\label{tab:9-9.2-38}
+ \end{table}
 
-The given curve can be expressed as a conic of parameters
+For $x\geq0$, the equation of the curve is given by 
 \begin{align}
-	v=\myvec{1&0\\0&0}, u=\myvec{0\\-2}, f=0 
+    y = x^2
 \end{align}
-The given line parameters are
+For $x<0$, the equation of the curve is given by 
 \begin{align}
-	h=\myvec{0\\ \frac{1}{2}},  m=\myvec{1\\\frac{1}{4}}
+    y = -x^2
 \end{align}
-From \eqref{eq:tangent_roots}, the points of intersection of line and conic are
+As you can see in the figure, the area bounded by the curve $y = x|x|$ in between the lines $x = -1$ and $x = 1$ is given by
 \begin{align}
-	\vec{x_1} = \myvec{2\\1},  \vec{x_2} = \myvec{-1\\\frac{1}{4}}
+	\int_{-1}^{0} \abs{-x^2}dx + \int_{0}^{1} \abs{x^2}dx = \frac{2}{3} 
 \end{align}
-As you can see in the figure, the area bounded by the curve $x^{2} = 4y$ and the line $x - 2 = 4y $  is given by
-\begin{align}
-	\int_{-1}^{2} \brak{\frac{x + 2}{4} - \frac{x^{2}}{4}}dx = \frac{9}{8} 
-\end{align}
-\newpage
-\begin{figure}[h!]
-\begin{center}
-	\includegraphics[width=0.7\textwidth]{Fig/fig.png}
-	\caption{Line and Parabola}
-	\label{fig:9-9.2-22 - Figure -1}
-\end{center}
-\end{figure}
+ \begin{figure}[h!]
+ \begin{center}
+ 	\includegraphics[width=0.635\textwidth]{Fig/fig.png}
+ 	\caption{Graph of $ y = x|x|$}
+ 	\label{fig:9-9.2-38 - Figure -1}
+ \end{center}
+ \end{figure}
 \end{document}
+
+
 
 
