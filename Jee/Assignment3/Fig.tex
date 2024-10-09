@@ -1,5 +1,4 @@
 \begin{tikzpicture}[scale=0.3,transform shape]
-    % Define the vertices of the cube
     \coordinate (A) at (0, 0, 0);
     \coordinate (B) at (10, 0, 0);
     \coordinate (C) at (10, 10, 0);
@@ -9,27 +8,22 @@
     \coordinate (G) at (10, 10, 10);
     \coordinate (H) at (0, 10, 10);
     
-    % Correct position of point P (midpoint of diagonal AG)
     \coordinate (P) at (5, 5, 5); 
 
-    % Draw the edges of the cube
-    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle; % Base
-    \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle; % Top
+    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+    \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle; 
     \draw[thick] (A) -- (E);
     \draw[thick] (B) -- (F);
     \draw[thick] (C) -- (G);
     \draw[thick] (D) -- (H);
     
-    % Draw the diagonals AG and BH
     \draw[dashed, thick] (A) -- (G);
     \draw[dashed, thick] (B) -- (H);
 
-    % Draw small dots at each vertex
     \foreach \point in {A, B, C, D, E, F, G, H, P} {
-        \filldraw[black] (\point) circle (3pt); % Keep vertices small (3pt size)
+        \filldraw[black] (\point) circle (3pt);
     }
 
-    % Larger labels for the cube's vertices
     \node at (A) [below left] {\Huge \textbf{A}};
     \node at (B) [below right] {\Huge \textbf{B}};
     \node at (C) [above right] {\Huge \textbf{C}};
@@ -38,14 +32,12 @@
     \node at (F) [below right] {\Huge \textbf{F}};
     \node at (G) [above right] {\Huge \textbf{G}};
     \node at (H) [above left] {\Huge \textbf{H}};
-    \node at (P) [above] {\Huge \textbf{P}}; % Correct placement of P at the midpoint of AG
+    \node at (P) [above] {\Huge \textbf{P}};
 
-    % Dimensions
     \draw[<->, thick] (A) -- (B) node[midway, below] {\Huge 10 m};
     \draw[<->, thick] (A) -- (D) node[midway, left] {\Huge 10 m};
     \draw[<->, thick] (E) -- (F) node[midway, below] {\Huge 10 m};
 
-    % Correct Angle mark at point P (between AG and BH)
     \draw[thick] (5.5, 5.5, 4) arc[start angle=30, end angle=150, radius=1.5] node[midway, right] {\Huge $\angle GPH = \cos^{-1}\left(\frac{1}{5}\right)$};
 
 \end{tikzpicture}
