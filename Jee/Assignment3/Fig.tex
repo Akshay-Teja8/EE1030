@@ -1,0 +1,39 @@
+\begin{tikzpicture}[scale=0.25,transform shape]
+
+    \coordinate (A) at (0, 0, 0);
+    \coordinate (B) at (10, 0, 0);
+    \coordinate (C) at (10, 10, 0);
+    \coordinate (D) at (0, 10, 0);
+    \coordinate (E) at (0, 0, 10);
+    \coordinate (F) at (10, 0, 10);
+    \coordinate (G) at (10, 10, 10);
+    \coordinate (H) at (0, 10, 10);
+    \coordinate (P) at (5, 5, 10); 
+
+    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle; 
+    \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle; 
+    \draw[thick] (A) -- (E);
+    \draw[thick] (B) -- (F);
+    \draw[thick] (C) -- (G);
+    \draw[thick] (D) -- (H);
+    
+    \draw[dashed] (A) -- (G);
+    \draw[dashed] (B) -- (H);
+
+    \node at (A) [below left] {A};
+    \node at (B) [below right] {B};
+    \node at (C) [above right] {C};
+    \node at (D) [above left] {D};
+    \node at (E) [below left] {E};
+    \node at (F) [below right] {F};
+    \node at (G) [above right] {G};
+    \node at (H) [above left] {H};
+    \node at (P) [above] {P};
+
+    \draw[<->, thick] (A) -- (B) node[midway, below] {10 m};
+    \draw[<->, thick] (A) -- (D) node[midway, left] {10 m};
+    \draw[<->, thick] (E) -- (F) node[midway, below] {10 m};
+
+    \draw[thick] (4.5, 5, 10) arc (180:210:0.5) node[midway, right] {$\angle GPH = \cos^{-1}\left(\frac{1}{5}\right)$};
+\end{tikzpicture}
+
