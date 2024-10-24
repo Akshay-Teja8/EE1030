@@ -1,0 +1,42 @@
+\begin{figure}[!h]
+\centering
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [ line width=0.2pt ] (5.5,18.25) rectangle (7,12.25);
+\draw [ line width=0.2pt ] (6.25,17.5) circle (0.5cm);
+\draw [ line width=0.2pt ] (6.25,15.5) circle (0.5cm);
+\draw [ line width=0.2pt ] (6.25,13.5) circle (0.5cm);
+\node [font=\LARGE] at (7.75,17.5) {C};
+\node [font=\LARGE] at (7.75,15.5) {B};
+\node [font=\LARGE] at (7.75,13.5) {A};
+\node [font=\LARGE] at (4.5,16.5) {40};
+\node [font=\LARGE] at (4.5,14.5) {40};
+\node [font=\LARGE] at (4.5,18) {20};
+\node [font=\LARGE] at (4.5,12.75) {20};
+\node [font=\LARGE] at (14.5,17.5) {6 mm};
+\node [font=\LARGE] at (14,14.25) {F=10kN};
+\draw [ line width=0.2pt](7,18.25) to[short] (8,18.25);
+\draw [ line width=0.2pt](7,12.25) to[short] (8,12.25);
+\draw [line width=0.2pt, short] (8,18.25) -- (12.75,16.25);
+\draw [line width=0.2pt, short] (8,12.25) -- (12.75,15);
+\draw [line width=0.2pt, short] (12.75,16.25) .. controls (13.5,16) and (13.5,15) .. (12.75,15);
+\draw [ line width=0.2pt ] (12.5,15.75) circle (0.5cm);
+\draw [line width=0.2pt, ->, >=Stealth] (12.5,15.75) -- (12.5,13.75);
+\draw [line width=0.2pt, ->, >=Stealth] (13.5,17.5) -- (12.5,16.5);
+\node [font=\LARGE] at (8,11.5) {150};
+\draw [line width=0.2pt, <->, >=Stealth] (5,13.25) -- (5,12.25);
+\draw [line width=0.2pt, <->, >=Stealth] (5,15.5) -- (5,13.5);
+\draw [line width=0.2pt, <->, >=Stealth] (5,17.5) -- (5,15.75);
+\draw [line width=0.2pt, <->, >=Stealth] (5,18.5) -- (5,17.5);
+\draw [line width=0.2pt, ->, >=Stealth] (7.5,11.5) -- (6.25,11.5);
+\draw [line width=0.2pt, ->, >=Stealth] (9,11.5) -- (12.25,11.5);
+\draw [ line width=0.2pt](6.25,18.25) to[short] (6.25,12);
+\node [font=\LARGE] at (12.5,19.25) {3 holes of M10 x 1.75 mm bolts };
+\draw [ line width=0.2pt](7.25,18.75) to[short] (10.25,18.75);
+\draw [line width=0.2pt, ->, >=Stealth] (7.25,18.75) -- (6.25,17.5);
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

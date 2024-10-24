@@ -1,0 +1,24 @@
+\begin{figure}[!h]
+\centering
+\resizebox{0.25\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+
+% Wedge representation
+\draw (5,19) to[short] (5,19);
+\draw (5.25,19.25) to[short] (11.5,13);
+\draw (5,13) to[short] (11.5,13);
+
+% Gravity vector
+\draw [->, >=Stealth] (5.25,17.5) -- (5.25,15);
+\node [font=\LARGE] at (5.5,16.25) {g};
+
+% Circular arc at (11.5,13)
+\draw[thick] (10.1,13) arc[start angle=180, end angle=120, radius=1cm];
+
+% Add theta symbol along the arc
+\node at (9.5,14) {$\theta$};  % Adjust the position as needed
+
+\end{circuitikz}} % Closing brace for \resizebox
+\label{fig:wedge_diagram}
+\end{figure}

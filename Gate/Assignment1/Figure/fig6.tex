@@ -1,0 +1,49 @@
+\begin{figure}[!h]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+% First block (left)
+\draw [line width=0.2pt] (5.75,16) rectangle (11,15.75); % Box
+\draw [line width=0.2pt] (5.75,18) to[short] (5.75,14); % Vertical line left side
+\draw [line width=0.2pt] (5.75,17.25) to[short] (11,17.25); % Top line of box
+\draw [line width=0.2pt] (11,15.5) circle (0.25cm); % Circle inside the box
+\draw [line width=0.2pt] (10.25,15.25) rectangle (11.5,15); % Small rectangle inside the box
+
+% Current flow arrows (left side)
+\foreach \i in {6, 6.25, 6.5, 6.75, 7, 7.25, 7.5, 7.75, 8, 8.25, 8.5, 8.75, 9, 9.25, 9.5, 9.75, 10, 10.25, 10.5, 10.75, 11} {
+    \draw [line width=0.2pt, ->, >=Stealth] (\i,17.25) -- (\i,16);
+}
+
+% Second block (right)
+\draw [line width=0.2pt] (13.25,16.25) rectangle (18.5,16); % Box on the right
+\draw [line width=0.2pt](13.5,17.5) to[short] (18.25,17.5); % Top horizontal line
+\draw [line width=0.2pt](13.5,15) to[short] (18.25,15); % Bottom horizontal line
+
+% Current flow arrows (right side)
+\foreach \i in {13.5, 13.75, 14, 14.25, 14.5, 14.75, 15, 15.25, 15.5, 15.75, 16, 16.25, 16.5, 16.75, 17, 17.25, 17.5, 17.75, 18, 18.25} {
+    \draw [line width=0.2pt, ->, >=Stealth] (\i,17.5) -- (\i,16.25);
+}
+
+% Resistors and Labels
+\draw [line width=0.2pt, ->, >=Stealth] (13.5,15) -- (13.5,16); % Vertical arrow R1
+\draw [line width=0.2pt, ->, >=Stealth] (18.25,15) -- (18.25,16); % Vertical arrow R2
+\node [font=\Large] at (13.5,14.5) {$R_1$};
+\node [font=\Large] at (18.25,14.5) {$R_2$};
+
+% Other labels
+\node [font=\Large] at (8.25,14.5) {$l$};
+\node [font=\Large] at (8.25,18) {$q$};
+\node [font=\Large] at (12.75,16.5) {$M$};
+\node [font=\Large] at (16,18.25) {$q$};
+
+% Current path (curved arrow)
+\draw [->, >=Stealth] (12.75,16.25) .. controls (12.25,15.75) and (12.25,15) .. (13,14.75);
+
+% Add left-right connections
+\draw [line width=0.2pt, ->, >=Stealth] (8.5,14.5) -- (11.25,14.5); % Horizontal arrow right
+\draw [line width=0.2pt, ->, >=Stealth] (8,14.5) -- (5.75,14.5); % Horizontal arrow left
+
+\end{circuitikz}
+}
+\end{figure}

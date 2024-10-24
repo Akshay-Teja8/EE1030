@@ -1,0 +1,307 @@
+
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2020-Sep-3 Shift-2}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+
+
+% Question 1
+\item A building has to be maintained at 21$\degree C$ (dry bulb) and 14$\degree C$ (wet bulb). The dew point temperature under these condition is $10.17\degree C$. The outside temperature is $-23\degree C$ (dry bulb) and the internal and external surface heat transfer coefficients are 8 W/m$^2$K and 23 W/m$^2$K respectively, If the building wall has a thermal conductivity of 1.2 W/mK, the minimum thickness (in m) of the wall required to prevent condensation id
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $0.471$
+    \item $0.407$
+    \item $0.321$
+    \item $0.125$
+\end{enumerate}
+\end{multicols}
+
+% Question 2
+\item Atmospheric air at a flow rate of 3 kg/s (on dry basis) enters a cooling and dehumidifying coil with an enthalpy of $85$ kJ/kg of dry air and a humidity ratio of 19 grams/kg of dry air. The air leaves the coil with an enthalpy of 43 kJ/kg of dry air and aa humidity ratio of 8 grams/kg of dry air. If the condensate water leaves the coil with an enthalpy of 67 kJ/kg, the required cooling capacity of the coil in kW is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $75.0$
+    \item $123.8$
+    \item $128.2$
+    \item $159.0$
+\end{enumerate}
+\end{multicols}
+
+
+
+% Question 3
+\item A heat transformer is a device that transfers a part of the heat, supplied to it at an intermediate temperature, to a high temperature reservoir while rejecting the remaining part to a low temperature heat sink. In such a heat transformer, 100 kJ of heat is supplied at 350 K. The maximum amount of heat in kJ that can be transferred to 400 K, when the rest is rejected to a heat sink at 300 K is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $12.50$ 
+    \item $14.29$ 
+    \item $33.33$ 
+    \item $57.14$ 
+\end{enumerate}
+\end{multicols}
+
+% Question 4
+\item Which combination of the following statements is correct?\\
+The incorporation of reheater in a steam power plant\\
+P:      always increases the thermal efficiency of the plant.\\
+Q:      always increases the dryness fraction of steam at condenser inlet.\\
+R:      always increases the mean temperature of heat addition.\\
+S:  always increases the specific work output
+
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item P and S
+        \item Q and S
+        \item P,R and S
+        \item P,Q,R and s
+    \end{enumerate}
+\end{multicols}
+
+% Question 5
+\item Which combination of the following statements is correct?\\
+P: A gas cools upon expansion only when its Joule-Thompson coefficient is positive in the temperature range of expansion.\\
+Q: For a system undergoing a process, its entropy remains constant only when the process is reversible.\\
+R: The work done by a closed system in adiabatic process is a point function.\\
+S: A liquid expands upon freezing when the slope of its fusion curve on Pressure-Temperature diagram is negative.
+\begin{multicols}{4}
+\begin{enumerate}
+    \item R and S
+    \item P and Q
+    \item Q,R and S
+    \item P,Q and R
+\end{enumerate}
+\end{multicols}
+
+
+% Question 6
+\item Which combination of the following statements about steady incompressible forced vortex flow is correct?
+
+P:  Shear stress is zero at all points in the flow.
+
+Q:  Velocity is zero at all points in the flow.
+
+R:  Velocity is proportional to the radius from the centre of the vortex.  
+
+S:  Total mechanical energy per unit mass is constant in the entire flow field
+\begin{multicols}{4}
+\begin{enumerate}
+    \item  P and Q                    
+    \item R and S
+    \item P and R  
+    \item P and S
+\end{enumerate}
+\end{multicols}
+
+
+
+% Question 7
+\item Match the items in columns I and II.
+ \begin{table}[h!]
+ 	\centering
+ 	\input{Table/table.tex}
+ 	\label{tab:Me-2007}
+ \end{table}
+\begin{multicols}{4}
+\begin{enumerate}
+      \item  P-2, Q-3, R-1, S-2
+    \item  P-2, Q-3, R-3, S-4
+    \item  P-3, Q-4, R-1, S-1
+    \item  P-1, Q-2, R-3, S-4
+\end{enumerate}
+\end{multicols}
+
+
+% Question 8
+\item A uniformly loaded propped cantilever beam and its free body diagram are shown below. The reactions are 
+    \begin{center}
+\input{Figure/fig6.tex}
+    \end{center}
+\begin{multicols}{2}
+\begin{enumerate}
+       \item  $R_1 = \frac{3}{8}ql, R_2 = \frac{5}{8}ql, M = \frac{1}{8}ql^2$
+    \item $ R_1 = \frac{5}{8}ql, R_2 = \frac{3}{8}ql, M = \frac{1}{8}ql^2$
+    \item  $R_1 = \frac{3}{8}ql, R_2 = \frac{5}{8}ql, M = 0$
+    \item  $R_1 = \frac{5}{8}ql, R_2 = \frac{3}{8}ql, M = 0$
+
+\end{enumerate}
+\end{multicols}
+
+
+% Question 9
+\item A block of mass M is released from point P on a rough inclined plane with inclination angle $\theta$, shown in the figure below. The coefficient of friction is $\mu$. If $\mu = \tan \theta$, then the time taken by the block to reach another point Q on the inclined plane, where PQ = s, is:
+    \begin{center}
+    \input{Figure/fig.tex}
+    \end{center}
+ 
+\begin{multicols}{2}
+\begin{enumerate}
+     \item  $\sqrt{\frac{2s}{g \cos \theta\brak{\tan \theta - \mu}}}$
+    \item $ \sqrt{\frac{2s}{g \cos \theta \brak{\tan \theta + \mu}}}$
+    \item  $\sqrt{\frac{2s}{g \brak{1 - \sin \theta \brak{\tan \theta - \mu}}}}$
+    \item  $\sqrt{\frac{2s}{g \brak{1 - \sin \theta \brak{\tan \theta + \mu}}}}$
+\end{enumerate}
+\end{multicols}
+
+% Question 10
+\item A 200 $\times$ 100 $\times$ 50 mm steel block is subjected to a hydrostatic pressure of 15 MPa. The Young's modulus and Poisson's ratio of the material is 200 GPa  is 0.3 respectively. The change in volume of the block is in mm$^3$ is:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 85
+    \item 90
+    \item 100
+    \item 110
+\end{enumerate}
+\end{multicols}
+
+
+% Question 11
+\item A stepped steel shaft shown below is subjected to 10 Nm torque. If the modulus of rigidity is 80 GPa, the strain energy in the shaft in N mm is:
+    \begin{center}
+\input{Figure/fig2.tex}
+ \end{center}
+\begin{multicols}{4}
+\begin{enumerate}
+     \item 4.12
+    \item 3.46
+    \item 1.73
+    \item 0.86
+\end{enumerate}
+\end{multicols}
+
+% Question 12
+\item A thin spherical pressure vessel of 200 mm diameter and 1 mm thickness is subjected to an internal pressure varying from 4 to 8 MPa. Assume that the yield, ultimate, and endurance strength of material are 600, 800, and 400 MPa respectively. The factor of safety as per Goodman's relation is:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 2.0
+    \item 1.6
+    \item 1.4
+    \item 1.2
+\end{enumerate}
+\end{multicols}
+
+
+
+
+% Question 13
+\item  A natural feed journal bearing of diameter 50 mm and length 30 mm operating at 20 revolution/second supports a load of 2.0 kN. The lubricant used has a viscosity of 20 mPa s. The radial clearance is 0.02 pm. The Sommerfeld number for the bearing is:
+\begin{multicols}{4}
+\begin{enumerate}
+     \item 0.062
+    \item 0.125
+    \item 0.250
+    \item 0.785
+\end{enumerate}
+\end{multicols}
+
+
+
+% Question 14
+\item A bolted joint is shown below. The maximum shear stress, in MPa, in the bolts at A and B, respectively are:
+    \begin{center}
+ \input{Figure/fig5.tex}
+ \end{center}
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 242.6, 42.5
+    \item 42.5, 242.6
+    \item 42.5, 42.5
+    \item 242.6, 242.6
+\end{enumerate}
+\end{multicols}
+
+
+% Question 15
+\item A block-brake shown below has a face width of 300 mm and a mean coefficient of friction of 0.25. For an actuating force of 400 N, the braking torque in Nm is:
+    \begin{center}
+    \input{Figure/fig4.tex}
+     \end{center}
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 30
+    \item 40
+    \item 45
+    \item 60
+\end{enumerate}
+\end{multicols}
+
+% Question 16
+\item  The input link $O_2P$ of a four bar linkage is rotated at 2 rad/s in a counterclockwise direction as shown below. The angular velocity of the coupler $PQ$ in rad/s, at an instant when $\angle O_4O_2P = 180^\circ$, is:
+    \begin{center}
+\input{Figure/fig3.tex}
+ \end{center}
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 4
+    \item $2\sqrt{2}$
+    \item 1
+    \item $\frac{1}{\sqrt{2}}$
+    \end{enumerate}
+\end{multicols}
+
+% Question 17
+\item  The speed of an engine varies from 210 rad/s to 190 rad/s. During a cycle, the change in kinetic energy is found to be 400 Nm. The inertia of the flywheel in kgm$^2$ is:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 0.10
+    \item 0.20
+    \item 0.30
+    \item 0.40
+\end{enumerate}
+\end{multicols}
+
+\end{enumerate}
+\end{document}
+
+

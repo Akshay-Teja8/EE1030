@@ -1,0 +1,37 @@
+\begin{figure}[!h]
+\centering
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [ line width=0.2pt ] (10.5,15.5) circle (3.5cm);
+\draw [ line width=0.2pt](6,20) to[short] (16,20);
+\draw [line width=0.2pt, short] (6,20) .. controls (5.5,19.5) and (5.5,19.5) .. (5.5,18.75);
+\draw [ line width=0.2pt ] (5,19.25) rectangle (6,18.25);
+\draw [ line width=0.2pt ] (5.5,18.75) circle (0.5cm);
+\draw [line width=0.2pt, short] (10.5,15.5) -- (11.75,18.75);
+\draw [line width=0.2pt, short] (9.25,18.75) -- (10.5,15.5);
+\draw [ line width=0.2pt](11.75,20) to[short] (11.75,18.75);
+\draw [ line width=0.2pt](9.25,20) to[short] (9.25,18.75);
+\draw [ line width=0.2pt](14,15.5) to[short] (4.5,15.5);
+\node [font=\Huge] at (10.5,16.75) {$45\circ$};
+\draw [ line width=0.2pt](14.75,18) to[short] (16.5,18);
+\draw [line width=0.2pt, ->, >=Stealth] (14.75,18) -- (13.75,17);
+\node [font=\Huge] at (15,18.5) {$300 mm$};
+\node [font=\Huge] at (7.25,20.5) {$200 mm$};
+\node [font=\Huge] at (13,20.5) {$400 mm$};
+\node [font=\Huge] at (17,20.5) {$400 N$};
+\node [font=\Huge, rotate around={90:(0,0)}] at (4.5,17) {$150 mm$};
+\draw [line width=0.2pt, ->, >=Stealth] (4.5,18.25) -- (4.5,19);
+\draw [line width=0.2pt, ->, >=Stealth] (4.5,16) -- (4.5,15.5);
+\draw [line width=0.2pt, ->, >=Stealth] (8.25,20.5) -- (10.5,20.5);
+\draw [line width=0.2pt, ->, >=Stealth] (6,20.5) -- (5.5,20.5);
+\draw [ line width=0.2pt](10.5,20.75) to[short] (10.5,12);
+\draw [line width=0.2pt, ->, >=Stealth] (11.75,20.5) -- (10.5,20.5);
+\draw [line width=0.2pt, ->, >=Stealth] (14,20.5) -- (16,20.5);
+\draw [line width=0.2pt, ->, >=Stealth] (16,20.5) -- (16,20);
+\draw [line width=0.2pt, ->, >=Stealth] (11.75,15.5) .. controls (11.75,14.5) and (11.25,14) .. (10.5,14.25) ;
+\end{circuitikz}
+}
+
+\label{fig:my_label}
+\end{figure}
