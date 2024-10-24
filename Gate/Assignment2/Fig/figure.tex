@@ -1,0 +1,17 @@
+
+\resizebox{0.25\textwidth}{!}{%
+\begin{tikzpicture}
+    % Axes
+    \draw[->] (0,0) -- (5,0) node[right] {$T$};
+    \draw[->] (0,0) -- (0,5) node[above] {$\frac{1}{\chi}$};
+
+    % Dashed line at Tc
+    \node[below] at (1.5,0) {$T_C$};
+
+    % Solid line
+    \draw[thick] (1.5,0) -- (4,4);
+
+    % Dashed continuation below Tc
+    \draw[dashed] (0,0) -- (1.5,0);
+\end{tikzpicture}
+}

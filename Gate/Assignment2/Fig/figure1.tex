@@ -1,0 +1,15 @@
+\resizebox{0.25\textwidth}{!}{%
+\begin{tikzpicture}
+    % Axes
+    \draw[->] (0,0) -- (5,0) node[right] {$T$};
+    \draw[->] (0,0) -- (0,5) node[above] {$\frac{1}{\chi}$};
+
+    % Solid line at Tc
+    \draw[thick] (1.5,0) to[out=80,in=190] (3.5,4);
+    
+    % Tc label
+    \node[below] at (1.5,0) {$T_C$};
+
+    % Line from origin to Tc
+    \draw[dashed] (0,0) -- (1.5,0);
+\end{tikzpicture}}

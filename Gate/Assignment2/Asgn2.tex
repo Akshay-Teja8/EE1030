@@ -1,0 +1,268 @@
+
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2008-PH-1-17}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+
+
+% Question 1
+\item For arbitrary matrices $E$, $F$, $G$, and $H$, if $EF - FE = 0$, then $\text{Trace}\brak{EFGH}$ is equal to:
+\begin{multicols}{2}
+\begin{enumerate}
+    \item Trace\brak{HGFE}
+    \item $Trace\brak{E} Trace\brak{F}Trace\brak{G}Trace\brak{H}$
+    \item Trace\brak{GFEH}
+    \item Trace\brak{EGHF}
+\end{enumerate}
+\end{multicols}
+
+% Question 2
+\item A unitary matrix $\begin{pmatrix} ae^{i\alpha} & b \\ ce^{i\beta} & d \end{pmatrix}$ is given, where $a$, $b$, $c$, $d$, $\alpha$, and $\beta$ are real. The inverse of the matrix is:
+\begin{multicols}{4}
+\begin{enumerate}
+     \item $\begin{pmatrix} ae^{ix} & -ce^{i\beta} \\ b & d \end{pmatrix}$
+    \item $\begin{pmatrix} ae^{ix} & ce^{i\beta} \\ b & d \end{pmatrix}$
+    \item $\begin{pmatrix} ae^{-ia} & b \\ ce^{-ip} & d \end{pmatrix}$
+    \item $\begin{pmatrix} ae^{-ix} & ce^{-i\beta} \\ b & d \end{pmatrix}$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 3
+\item The curl of a vector field $\overrightarrow{F}$ is $2\hat{x}$. Identify the appropriate vector field $\overrightarrow{F}$ from the choices given below:
+
+\begin{multicols}{4}
+    \begin{enumerate}
+     \item $\overrightarrow{F} = 2z\hat{x} + 3z\hat{y} + 5y\hat{z}$
+    \item $\overrightarrow{F} = 3z\hat{y} + 5y\hat{z}$
+    \item $\overrightarrow{F} = 3x\hat{y} + 5y\hat{z}$
+    \item $\overrightarrow{F} = 2\hat{x} + 5y\hat{z}$
+    \end{enumerate}
+\end{multicols}
+
+
+% Question 4
+\item A rigid body is rotating about its center of mass, fixed at the origin, with an angular velocity $\overrightarrow{\omega}$ and angular acceleration $\overrightarrow{\alpha}$. If the torque acting on it is $\overrightarrow{\tau}$ and its angular momentum is $\overrightarrow{L}$, the rate of change of its kinetic energy is:
+\begin{multicols}{4}
+\begin{enumerate}
+  \item $\frac{1}{2}\overrightarrow{r}\cdot\overrightarrow{\omega}$
+  \item $\frac{1}{2}\overrightarrow{L}\cdot\overrightarrow{\omega}$
+    \item $\frac{1}{2}\brak{\overrightarrow{r}\cdot\overrightarrow{\omega} + \overrightarrow{L}\cdot\overrightarrow{\alpha}}$
+    \item $\frac{1}{2}\overrightarrow{L}\cdot\overrightarrow{\alpha}$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 5
+\item A cylinder of mass $M$ and radius $R$ is rolling down without slipping on an inclined plane of angle of inclination $\theta$. The number of generalized coordinates required to describe the motion of this system is:
+\begin{multicols}{4}
+\begin{enumerate}
+     \item 1
+    \item 2
+    \item 4
+    \item 6
+\end{enumerate}
+\end{multicols}
+
+
+% Question 6
+\item A parallel plate capacitor is being discharged. What is the direction of the energy flow in terms of the Poynting vector in the space between the plates?
+\begin{center}
+    \input{Fig/fig.tex}
+\end{center}
+\begin{multicols}{2}
+\begin{enumerate}
+    \item Along the wire in the positive z-axis.
+    \item Radially inward $\brak{-\overrightarrow{r}}$.
+    \item Radially outward $\brak{\overrightarrow{r}}$.
+    \item Circumferential direction $\brak{\phi}$.
+\end{enumerate}
+\end{multicols}
+
+
+
+% Question 7
+\item Unpolarized light falls from air to a planar air-glass interface (refractive index of glass is 1.5) and the reflected light is observed to be plane polarized. The polarization vector and the angle of incidence are:
+
+\begin{enumerate}
+        \item perpendicular to the plane of incidence and $\theta_{i}=42\degree$
+        \item parallel to the plane of incidence and $\theta_{i}=56\degree$
+        \item perpendicular to the plane of incidence and $\theta_{i}=56\degree$
+        \item parallel to the plane of incidence and $\theta_{i}=42\degree$
+\end{enumerate}
+
+
+% Question 8
+\item A finite wave train, of an unspecified nature, propagates along the positive $x$ axis with a constant speed $v$ and without any change of shape. The differential equation among the four listed below, whose solution it must be, is: 
+   
+\begin{multicols}{2}
+\begin{enumerate}
+       \item $\brak{\frac{\partial^2}{\partial x^2} - \frac{1}{v^2} \frac{\partial^2}{\partial t^2}} \psi\brak{x,t} = 0$
+        \item $\brak{ \nabla^2 - \frac{1}{v^2} \frac{\partial^2}{\partial t^2} } \psi'\brak{\overrightarrow{r},t} = 0$
+        \item $\brak{\nabla^z + a \frac{\partial}{\partial t}} \psi\brak{\vec{r},t} = 0$
+        \item $\brak{-\frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2} - i \hbar \frac{\partial}{\partial t}} \psi\brak{\overrightarrow{r},t} = 0$
+
+\end{enumerate}
+\end{multicols}
+
+
+% Question 9
+\item Let $|\psi_0\rangle$ denote the ground state of the hydrogen atom. Choose the correct statement from those given below:
+ 
+\begin{multicols}{2}
+\begin{enumerate}
+        \item $[L_x, L_y]|\psi_0\rangle = 0$
+        \item $J^2 |\psi_0\rangle = 0$
+        \item $\overrightarrow{L} \cdot \overrightarrow{S} |\psi_0\rangle \neq 0$
+        \item $[S_x, S_y] |\psi_0\rangle = 0$
+\end{enumerate}
+\end{multicols}
+
+% Question 10
+\item Thermodynamic variables of a system can be volume $V$, pressure $P$, temperature $T$, number of particles $N$, internal energy $E$, and chemical potential $\mu$. For a system to be specified by Microcanonical (MC), Canonical (CE), and Grand Canonical (GC) ensembles, the parameters required for the respective ensembles are:
+\begin{multicols}{2}
+\begin{enumerate}
+    \item MC: $\brak{N, V, T}$; CE: $\brak{E, V, N}$; GC: $\brak{V, T, \mu}$
+    \item MC: $\brak{E, V, N}$; CE: $\brak{N, V, T}$; GC: $\brak{V, T, \mu}$
+    \item MC: $\brak{V, T, \mu}$; CE: $\brak{N, V, T}$; GC: $\brak{E, V, N}$
+    \item MC: $\brak{E, V, N}$; CE: $\brak{V, T, \mu}$; GC: $\brak{N, V, T}$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 11
+\item The pressure versus temperature diagram of a given system at certain low temperature range is found to be parallel to the temperature axis in the liquid-to-solid transition region. The change in the specific volume remains constant in this region. The conclusion one can get from the above is
+\begin{enumerate}
+    \item The entropy of solid is zero in this temperature region.
+    \item The entropy increases when the system goes from liquid to solid phase in this temperature region.
+    \item  the entropy decreases when the system transforms from liquid to solid phase in this region of temperature.
+    \item the change in entropy is zero in the liquid-to-solid transition region
+\end{enumerate}
+
+% Question 12
+\item The radial wave function of the electrons in the state of $n=1$ and $l=0$ in a hydrogen atom is $R_{10}=\frac{2}{{a_{0}}^{\frac{3}{2}}}\exp\brak{-\frac{r}{a_{0}}}$ where $a_{0}$ is the Bohr radius. The most probable value of $r$ for an electron is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $a_0$
+    \item $2a_0$
+    \item $4a_0$
+    \item $8a_0$
+\end{enumerate}
+\end{multicols}
+
+
+
+
+% Question 13
+\item  The last two terms of the electronic configuration of manganese (Mn) atom is $3d^{5}4s^{2}$. The term factor of Mn$^{4+}$ is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $^{4}D_{\frac{1}{2}}$
+    \item $^{4}F_{\frac{3}{2}}$
+    \item $^{3}F_{\frac{9}{2}}$
+    \item $^{4}D_{\frac{7}{2}}$
+\end{enumerate}
+\end{multicols}
+
+
+
+% Question 14
+\item The coherence length of laser light is
+    
+\begin{enumerate}
+        \item directly proportional to the length of the active lasing medium.
+        \item directly proportional to the width of the spectral line.
+        \item inversely proportional to the width of the spectral line.
+        \item inversely proportional to the length of the active lasing medium.
+\end{enumerate}
+
+
+% Question 15
+\item Metallic monovalent sodium crystallizes in a body-centered cubic (BCC) structure. If the length of the unit cell is $4\times10^{-8}$ cm, the concentration of conduction electrons in metallic sodium is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $6.022\times10^{22}$ cm$^{-3}$
+        \item $3.125\times10^{22}$ cm$^{-3}$
+        \item $2.562\times10^{22}$ cm$^{-3}$
+        \item $1.250\times10^{22}$ cm$^{-3}$
+\end{enumerate}
+\end{multicols}
+
+% Question 16
+\item  The plot of inverse magnetic susceptibility $1 / \chi$ versus temperature $T$ of an antiferromagnetic sample corresponds to
+\begin{multicols}{2}
+\begin{enumerate}
+    \item \input{Fig/figure.tex}
+    \item \input{Fig/figure2.tex}
+    \item \input{Fig/figure1.tex}
+    \item \input{Fig/figure3.tex}
+    \end{enumerate}
+\end{multicols}
+% Question 17
+\item   According to the quark model, the $\mathrm{K}^{+}$meson is composed of the following quarks
+\begin{multicols}{4}
+\begin{enumerate}
+    \item u u d
+    \item u $\overline{C}$
+    \item u $\overline{S}$
+    \item s $\overline{u}$
+\end{enumerate}
+\end{multicols}
+
+\end{enumerate}
+\end{document}
+
+
+
