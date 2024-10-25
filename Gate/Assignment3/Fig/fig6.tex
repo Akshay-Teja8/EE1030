@@ -1,0 +1,19 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [line width=0.5pt](6.25,16.75) to[normal open switch] (9,16.75);
+\draw [line width=0.5pt](9,16.75) to[normal open switch] (11.75,16.75);
+\draw [line width=0.5pt](9.25,16.75) to[C] (9.25,14.5);
+\draw [line width=0.5pt](11.75,16.75) to[C] (11.75,14.5);
+\draw [ line width=0.5pt](6.25,14.5) to[short] (11.75,14.5);
+\draw (6.25,16.75) to[battery1] (6.25,14.5);
+\node [font=\large] at (5.5,15.75) {3V};
+\node [font=\large] at (7.25,17.25) {$S_1$};
+\node [font=\large] at (10.25,17.25) {$S_2$};
+\node [font=\large] at (8.5,15.5) {$C_1$};
+\node [font=\large] at (11,15.5) {$C_2$};
+\node [font=\large] at (10,15.5) {1F};
+\node [font=\large] at (12.5,15.5) {2F};
+\end{circuitikz}
+}%
+

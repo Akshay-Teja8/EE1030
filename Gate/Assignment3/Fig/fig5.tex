@@ -1,0 +1,32 @@
+\centering
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [line width=0.5pt] (14,16) to[short] (14,11.5);
+\draw [line width=0.5pt] (11,16) to[R] (14,16);
+\draw [line width=0.5pt] (11,16) to[short] (11,14.25);
+\draw [line width=0.5pt] (11,11.5) to[R] (14,11.5);
+\draw [line width=0.5pt] (11,13.25) to[short] (11,11.5);
+\draw [line width=0.5pt] (12.5,13.75) node[op amp, scale=1, yscale=-1] (opamp2) {};
+\draw [line width=0.5pt] (opamp2.+) to[short] (11,14.25);
+\draw [line width=0.5pt] (opamp2.-) to[short] (11,13.25);
+\draw [line width=0.5pt] (13.7,13.75) to[short] (14,13.75);
+\draw [line width=0.5pt] (8,12.5) to (8,12.25) node[sground]{};
+\draw [line width=0.5pt] (11,10.25) to (11,10) node[sground]{};
+\draw [line width=0.5pt] (11,11.5) to[C] (11,10);
+\draw [line width=0.5pt] (8,14.25) to[sinusoidal voltage source, sources/symbol/rotate=auto] (8,12.25);
+\draw [line width=0.5pt, ->, >=Stealth] (8,14.25) -- (9.75,14.25);
+\draw [line width=0.5pt] (9.75,14.25) to[short] (11.25,14.25);
+
+\node [font=\normalsize] at (12.25,13.75) {OPAMP};
+\node [font=\Large] at (10.5,10.75) {C};
+\node [font=\Large] at (12.5,16.75) {R};
+\node [font=\Large] at (12.5,10.75) {R};
+\node [font=\large] at (12.5,15.5) {10 k$\Omega$};
+\node [font=\large] at (12.5,12) {10 k$\Omega$};
+\node [font=\large] at (9.75,14.75) {$i_s$};
+\node [font=\large, rotate=90] at (7.25,13.25) {$V_S = 10$V rms 50Hz};
+\node [font=\large] at (9.75,10.75) {10 $\mu$F};
+
+\end{circuitikz}
+}%

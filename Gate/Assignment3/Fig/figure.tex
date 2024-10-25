@@ -1,0 +1,27 @@
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [ line width=0.5pt](6.25,17) to[short, -o] (5.5,17) ;
+\draw [ line width=0.5pt](14,14) to[short, -o] (5.5,14) ;
+\draw [line width=0.5pt, ->, >=Stealth] (6.25,17) -- (7.25,17);
+\draw [ line width=0.5pt](8.5,17) to[R] (8.75,17);
+\draw [ line width=0.5pt](7.25,17) to[R] (9.25,17);
+\draw [ line width=0.5pt](9.25,17) to[R] (9.25,15);
+\draw [ line width=0.5pt](9.25,15) to[short] (12,15);
+\draw [line width=0.5pt](10.5,15) to[C] (10.5,14);
+\draw [ line width=0.5pt](12,17) to[american controlled current source] (12,15);
+\draw [ line width=0.5pt](12,17) to[R] (14,17);
+\draw [line width=0.5pt](14,17) to[C] (14,14);
+\draw [line width=0.5pt, ->, >=Stealth] (6.25,16.25) .. controls (9,16.5) and (8.75,15.25) .. (7.75,14.75) ;
+\node [font=\large] at (7.25,15.75) {Input};
+\node [font=\large] at (7.25,15.25) {loop};
+\node [font=\large] at (7.25,17.75) {I$_1$};
+\node [font=\large] at (8.25,17.75) {1k$\Omega$};
+\node [font=\large] at (9.75,16) {1k$\Omega$};
+\node [font=\large] at (11.5,14.5) {$100\mu$F};
+\node [font=\large] at (12.75,15.5) {49I$_1$};
+\node [font=\large] at (12.75,17.75) {1k$\Omega$};
+\node [font=\large] at (15.25,15.5) {$100\mu$F};
+\end{circuitikz}
+}%
+

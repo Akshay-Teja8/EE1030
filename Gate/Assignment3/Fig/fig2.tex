@@ -1,0 +1,33 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+
+% Arrow indicating torque
+\draw [->, >=Stealth] (9.25,11.25) -- (9.25,17.5);
+
+% Horizontal line from A to B
+\draw [line width=0.5pt, ->, >=Stealth] (8.25,12.25) -- (15.5,12.25);
+
+% Dashed curve
+\draw [line width=0.5pt, dashed] (10.25,13.75) .. controls (10.75,18.25) and (13.75,18.25) .. (13.75,13.5);
+
+% Solid line representing connection
+\draw [line width=0.5pt, short] (9.25,14.25) -- (10.25,14.5);
+\draw [line width=0.5pt, short] (10.25,14.5) .. controls (11.25,14.75) and (11.25,15.5) .. (12,16.5);
+\draw [line width=0.5pt, short] (12,16.5) .. controls (14.25,16) and (13.5,14.5) .. (14.5,12.25);
+
+% Nodes for labeling
+\node [font=\Large] at (10,15) {A};
+\node [font=\Large] at (14,15.75) {B};
+\node [font=\Large, rotate around={90:(0,0)}] at (8.75,15) {Torque};
+\node [font=\Large] at (8.75,11.75) {0};
+\node [font=\Large] at (14.5,11.75) {1.0};
+\node [font=\Large] at (16,12.5) {N};
+\node [font=\Large] at (16.5,11.75) {N};
+
+% Drawing scatter point at intersection
+\fill[black] (8.25,12.25) circle (3pt); % Adjust coordinates to match intersection
+% Connection line
+\draw [ line width=0.5pt](15.75,11.75) to[short] (16.75,12.75);
+\end{circuitikz}
+}%
