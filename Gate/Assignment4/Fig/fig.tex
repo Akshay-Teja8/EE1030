@@ -1,0 +1,30 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw (7.5,18.25) to[short] (10.5,18.25);
+\draw (7.5,18.25) to[R] (7.5,15.25);
+\draw (7.5,12.25) to[short] (10.5,12.25);
+\draw [line width=0.6pt](10.5,14.25) to[Tnpn, transistors/scale=1.19] (10.5,16.25);
+\draw (7.5,15.25) to[curved capacitor] (5.25,15.25);
+\draw (7.5,15.25) to[short] (9.5,15.25);
+\draw (7.5,15.25) to[R] (7.5,12.25);
+\draw (10.5,18.25) to[short] (10.5,16.25);
+\draw (10.5,18.25) to[short, -o] (12.5,18.25) ;
+\node at (12.5,18.25) [circ] {};
+\draw (12.5,14.75) to[curved capacitor] (10.5,14.75);
+\node at (12.5,14.75) [circ] {};
+\draw (10.5,14.25) to[R] (10.5,12.25);
+\draw (10.5,12.25) to (10.5,12) node[cground]{};
+\node [font=\Large] at (6.75,16.75) {$R_1$};
+\node [font=\Large] at (6.75,13.75) {$R_2$};
+\node [font=\Large] at (11.25,13.25) {$R_E$};
+\node [font=\Large] at (11.25,15.5) {$C_2$};
+\node [font=\Large] at (9.5,15.75) {$T_1$};
+\node [font=\Large] at (4.75,15.25) {$V_{in}$};
+\node [font=\Large] at (6,14.5) {$C_1$};
+\node [font=\Large] at (13.25,18.25) {$V_{cc}$};
+\node [font=\Large] at (13,14.75) {$V_o$};
+\end{circuitikz}
+}%
+
+

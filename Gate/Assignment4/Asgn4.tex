@@ -1,0 +1,210 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2009-PH-13-24}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+
+
+% Question 13
+\item Identify which one is a first-order phase transition?
+\begin{enumerate}
+     \item A liquid to gas transition at its critical temperature
+    \item A liquid to gas transition close to its triple point
+    \item A paramagnetic to ferromagnetic transition in the absence of a magnetic field
+    \item A metal to superconductor transition in the absence of a magnetic field
+\end{enumerate}
+
+% Question 14
+\item Group I lists some physical phenomena while Group II gives some physical parameters. Match the phenomena with the corresponding parameters:
+\begin{table}[h!]
+ 	\centering
+ 	\input{Table/table.tex}
+ 	\label{tab:Ph-2009}
+ \end{table}
+\begin{multicols}{2}
+\begin{enumerate}
+      \item P-4, Q-3, R-1, S-2
+    \item P-3, Q-2, R-1, S-4
+    \item P-2, Q-3, R-4, S-1
+    \item P-1, Q-4, R-2, S-3
+\end{enumerate}
+\end{multicols}
+
+
+% Question 15
+\item  The separation between the first Stokes and corresponding anti-Stokes lines of the rotational Raman spectrum in terms of the rotational constant, B is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 2B
+    \item 4B
+    \item 6B
+    \item 12B
+    \end{enumerate}
+\end{multicols}
+
+
+% Question 16
+\item   A superconducting ring is cooled in the presence of a magnetic field below its critical temperature $\brak{T_c}$. The total magnetic flux that passes through the ring is
+\begin{multicols}{4}    
+\begin{enumerate}
+    \item zero
+    \item n$\frac{h}{2e}$
+    \item $\frac{nh}{4\pi e}$
+    \item $\frac{ne^2}{hc}$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 17
+\item In a cubic crystal, atoms of mass $M_1$ lie on one set of planes and atoms of mass $M_2$ lie on planes interleaved between those of the first set. If $C$ is the force constant between nearest neighbor planes, the frequency of lattice vibrations for the optical phonon branch with wavevector $k = 0$ is
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\sqrt{2C\brak{\frac{1}{M_1}+\frac{1}{M_2}}}$
+    \item $\sqrt{C\brak{\frac{1}{2M_1}+\frac{1}{M_2}}}$
+    \item $\sqrt{C\brak{\frac{1}{M_1}+\frac{1}{2M_2}}}$
+    \item 0
+\end{enumerate}
+\end{multicols}
+
+
+% Question 18
+\item  In the quark model, which one of the following represents a proton?
+This means there are
+\begin{multicols}{4}    
+\begin{enumerate}
+    \item $udd$
+    \item $uud$
+    \item $a\overline{b}$
+    \item $c\overline{e}$
+\end{enumerate}
+\end{multicols}
+
+% Question 19
+\item     
+    \input{Fig/fig.tex}    
+ The circuit shown above
+\begin{multicols}{2}    
+\begin{enumerate}
+    \item is a common-emitter amplifier
+    \item uses a pop transistor
+    \item is an oscillator
+    \item has a voltage gain less than one
+\end{enumerate}
+\end{multicols}
+
+
+% Question 20
+\item Consider a nucleus with $N$ neutrons and $Z$ protons. If $m_n$, $m_p$, and $BE$ represent the mass of the neutron, the mass of the proton, and the binding energy of the nucleus respectively, and $c$ is the velocity of light in free space, the mass of the nucleus is given by
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $Nm_n + Zm_p$
+    \item $Nm_p + Zm_n$
+    \item $Nm_n + Zm_p + \frac{BE}{c^2}$
+    \item $Nm_p + Zm_n + \frac{BE}{c^2}$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 21
+\item The magnetic field \brak{in\,A\,m^{-1}} inside a long solid cylindrical conductor of radius $a = 0.1 \, \text{m}$ is $\overrightarrow{H} = \frac{10^4}{r} \sbrak{\frac{1}{\alpha^2} \sin\brak{\alpha r} - \frac{r}{\alpha} \cos\brak{\alpha r}} \hat{\phi}$ where $\alpha = \frac{\pi}{2a}$. What is the total current (in A) in the conductor?
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\frac{\pi}{2a}$
+    \item $\frac{800}{\pi}$
+    \item $\frac{400}{\pi}$
+    \item $\frac{300}{\pi}$
+\end{enumerate}
+\end{multicols}
+
+% Question 22
+\item Which one of the following current densities, $\overrightarrow{J}$, can generate the magnetic vector potential $\overrightarrow{A} = \brak{y^2 \hat{i} + x^2 \hat{j}}?$
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\frac{2}{\mu_0} \brak{x \hat{i} + y \hat{j}}$
+    \item $-\frac{2}{\mu_0} \brak{ \hat{i} +  \hat{j}}$
+    \item $\frac{2}{\mu_0} \brak{ \hat{i}  - \hat{j}}$
+    \item $\frac{2}{\mu_0} \brak{x \hat{i} - y \hat{j}}$
+    
+\end{enumerate}
+\end{multicols}
+
+
+% Question 11
+\item The value of the integral $\int_{C} \frac{e^z}{z^2 - 3z + 2} \, dz$ where the contour $C$ is the circle $\abs{z} = \frac{3}{2}$ is
+\begin{multicols}{4}    
+\begin{enumerate}
+    \item $2\pi i e$
+    \item $\pi i e$
+    \item $-2 \pi i e$
+    \item $- \pi i e$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 12
+\item In a non-conducting medium characterized by $\epsilon = \epsilon_0$, $\mu = \mu_0$, and conductivity $\sigma = 0$, the electric field \brak{in \,V \,m^{-1}} is given by $\overrightarrow{E} = 20 \sin \sbrak{10^8 t - kz } \hat{j}.$ The magnetic field, $\overrightarrow{H}$ \brak{in\,A\,m^{-1}}, is given by
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $20k \cos \sbrak{10^8 t - kz } \hat{i}$
+    \item $\frac{20k}{10^8 \mu_0} \sin \sbrak{10^8 t - kz } \hat{j}$
+    \item $-\frac{20k}{10^8 \mu_0} \sin \sbrak{10^8 t - kz } \hat{i}$
+    \item $-20k \cos \sbrak{10^8 t - kz } \hat{j}$
+\end{enumerate}
+\end{multicols}
+
+
+\end{enumerate}
+\end{document}
+
