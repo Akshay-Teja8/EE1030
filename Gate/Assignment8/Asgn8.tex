@@ -1,0 +1,232 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2011-AE-53-65}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\noindent
+A thin-walled (thickness $\ll$ radius), hollow shaft of length 1 m and mean radius, $R=5 cm$ has to be designed such that it can transmit a torque, T=7 kN-m. A survey of different commercially available materials was made and following data was obtained from the suppliers ( $E$ : Young's modulus, $\tau_y$ : yield stress in shear, $\rho$; density):\\
+\begin{table}[h!]
+    \centering
+    \input{Table/table.tex}
+    \label{AE-2011}
+\end{table}
+\begin{enumerate}
+% Question 53
+\item If you assume a factor of safety of 2, what should be the approximate thickness of such a shaft?
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item 0.5 mm
+       \item 1 mm
+       \item 2 mm
+       \item 4 mm
+   \end{enumerate}
+   \end{multicols}
+\end{enumerate} 
+\noindent
+Prandtl's lifting line equation for a general wing is given by \\
+$\alpha\brak{y_0}=\frac{\Gamma\brak{y_0}}{\pi U_{\infty} c\brak{y_0}}+\alpha_{L=0}\brak{y_0}+\frac{1}{4 \pi U_{\infty}} \int_{-\frac{b}{2}}^{\frac{b}{2}} \frac{\brak{\partial \Gamma / \partial y}}{y_0-y} d y$, 
+where $U_{\infty}$ is the free-stream velocity, $\alpha$ is the angle of attack, $y_0$ is the spanwise location, $\alpha_{L-10}\brak{y_0}$ gives the spanwise variation of zero-lift angle, $c$ is the chord, $b$ is the span, and $\Gamma\brak{y_0}$ gives the spanwise variation of circulation.
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+% Question 54
+\item The rate of change of circulation with angle of attack $\Gamma_\alpha=\frac{\partial \Gamma}{\partial \alpha}$ is:
+   \begin{multicols}{2}
+   \begin{enumerate}
+       \item inversely proportional to $\alpha$
+       \item independent of $\alpha$
+       \item a linear function of $\alpha$
+       \item a quadratic function of $\alpha$
+   \end{enumerate}
+   \end{multicols}
+
+% Question 55
+\item Given that $C_L \propto \int_{-\frac{b}{2}}^{\frac{b}{2}} \Gamma\brak{y} d y$, the corresponding lift curve-slope $\frac{\partial C_L}{\partial \alpha}$ is
+   \begin{multicols}{2}
+   \begin{enumerate}
+       \item independent of $\alpha$
+       \item a linear function of $\alpha$
+       \item a quadratic function of $\alpha$
+       \item a cubic function of $\alpha$
+   \end{enumerate}
+   \end{multicols}
+
+% Question 56
+\item Choose the word from the options given below that is most nearly opposite in meaning to the given word: Deference
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item aversion
+       \item resignation
+       \item suspicion
+       \item contempt
+   \end{enumerate}
+   \end{multicols}
+
+% Question 57
+\item Choose the most appropriate word(s) from the options given below to complete the following sentence: \\We lost confidence in him because he never \_\_\_\_\_\_ the grandiose promises he had made.
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item delivered
+       \item delivered on
+       \item forgot
+       \item reneged on
+   \end{enumerate}
+   \end{multicols}
+
+
+% Question 58
+\item Choose the word or phrase that best completes the sentence below:\\ \_\_\_\_\_\_ in the frozen wastes of Arctic takes special equipment.
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item To survive
+       \item Surviving
+       \item Survival
+       \item That survival
+   \end{enumerate}
+   \end{multicols}
+
+
+% Question 59
+\item In how many ways can 3 scholarships be awarded to 4 applicants, when each applicant can receive any number of scholarships?
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item 4
+       \item 12
+       \item 64
+       \item 81
+   \end{enumerate}
+   \end{multicols}
+
+% Question 60
+\item Choose the most appropriate word from the options given below to complete the following sentence:\\ The \_\_\_\_\_\_ of evidence was on the side of the plaintiff since all but one witness testified that his story was correct.
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item paucity
+       \item propensity
+       \item preponderance
+       \item accuracy
+   \end{enumerate}
+   \end{multicols}
+
+
+% Question 61
+\item If $\frac{2y+1}{y+2}<1$, then which of the following alternatives gives the CORRECT range of $y$?
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item $-2 < y < 2$
+       \item $-2 < y < 1$
+       \item $-3 < y < 1$
+       \item $-4 < y < 1$
+   \end{enumerate}
+   \end{multicols}
+
+% Question 62
+\item A student attempted to solve a quadratic equation in $x$ twice. However, in the first attempt, he incorrectly wrote the constant term and ended up with the roots as (4,3). In the second attempt, he incorrectly wrote down the coefficient of $x$ and got the roots as (3,2). Based on the above information, the roots of the correct quadratic equation are:
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item \brak{-3, 4}
+       \item \brak{3, -4}
+       \item \brak{6, 1}
+       \item \brak{4, 2}
+   \end{enumerate}
+   \end{multicols}
+
+% Question 63
+\item $L$, $M$, and $N$ are waiting in a queue meant for children to enter the zoo. There are 5 children between $L$ and $M$, and 8 children between $M$ and $N$. If there are 3 children ahead of $N$ and 21 children behind $L$, then what is the minimum number of children in the queue?
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item 28
+       \item 27
+       \item 41
+       \item 40
+   \end{enumerate}
+   \end{multicols}
+
+% Question 64
+\item Four archers $P$, $Q$, $R$, and $S$ try to hit a bull's eye during a tournament consisting of seven rounds. The final scores received by the players during the tournament are listed in the table below.
+\newpage
+\begin{figure}[!h]
+\begin{center}
+    \input{Fig/fig.tex}
+\end{center}
+\end{figure}
+
+The final scores received by the players during the tournament are listed in the table below
+   \begin{table}[!h]
+       \centering
+        \input{Table/table1.tex}       
+       \label{tab:AE-2011}
+   \end{table}
+   
+   The most accurate and the most consistent players during the tournament are respectively:
+   \begin{multicols}{4}
+   \begin{enumerate}
+       \item P and S
+       \item Q and R
+       \item Q and Q
+       \item R and Q
+   \end{enumerate}
+   \end{multicols}
+
+% Question 65
+
+\item It can be inferred from the passage that:
+\begin{enumerate}
+    \item A cumulus cloud on the ground is called fog.
+    \item It is easy to predict the weather by studying clouds.
+    \item Clouds are generally of very different shapes, sizes, and mass.
+    \item There are four basic cloud types: stratus, nimbus, cumulus, and cirrus.
+\end{enumerate}
+\end{enumerate}
+\end{document}
