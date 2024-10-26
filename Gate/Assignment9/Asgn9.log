@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 18:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1890,35 +1890,31 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) (./Fig/fig.tex)
-(./Fig/fig2.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/sha
-re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Fig/fig3.tex)
-(./Fig/fig4.tex) (./Fig/fig5.tex) (./Fig/fig6.tex) (./Table/table.tex)
-(./Fig/figur.tex) [2] (./Fig/figure.tex
+) (./Figs/fig.tex)
+(./Figs/fig2.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/sh
+are/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Figs/fig3.tex)
+(./Figs/fig4.tex) (./Figs/fig5.tex) (./Figs/fig6.tex) (./Table/table.tex)
+(./Figs/figur.tex) [2] (./Figs/figure.tex
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <10> not available
 (Font)              Font shape `TS1/txr/bx/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <7> not available
 (Font)              Font shape `TS1/txr/bx/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <5> not available
 (Font)              Font shape `TS1/txr/bx/n' tried instead on input line 46.
-) (./Fig/figure1.tex) (./Fig/figure2.tex) (./Fig/figure3.tex) (./Fig/figure4.te
-x) (./Fig/figure5.tex) [3]
-(./Fig/figure6.tex) (./Fig/figure7.tex) (./Fig/figure8.tex) (./Fig/figure9.tex)
-[4] (./Asgn9.aux)
+) (./Figs/figure1.tex)
+(./Figs/figure2.tex) (./Figs/figure3.tex) (./Figs/figure4.tex)
+(./Figs/figure5.tex) [3] (./Figs/figure6.tex) (./Figs/figure7.tex)
+(./Figs/figure8.tex) (./Figs/figure9.tex) [4] (./Asgn9.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Asgn9.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  56538 strings out of 474222
- 1360916 string characters out of 5748734
+ 1361002 string characters out of 5748734
  2005975 words of memory out of 5000000
  77844 multiletter control sequences out of 15000+600000
  642870 words of font info for 228 fonts, out of 8000000 for 9000

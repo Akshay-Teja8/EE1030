@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1672,13 +1672,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file Asgn7.aux.
+) (./Asgn7.aux)
 \openout1 = `Asgn7.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 37.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 37.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1850,14 +1850,15 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 37.
+ (./Asgn7.out)
+(./Asgn7.out)
 \@outlinefile=\write5
 \openout5 = `Asgn7.out'.
 
 \c@lstlisting=\count399
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 60
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
@@ -1889,12 +1890,12 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) (./Fig/fig.tex)
-(./Fig/fig2.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/sha
-re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Fig/fig3.tex
+) (./Figs/fig.tex)
+(./Figs/fig2.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/sh
+are/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Figs/fig3.tex
 LaTeX Font Info:    Calculating math sizes for size <20> on input line 33.
 )
-(./Fig/fig4.tex) (./Table/table.tex)
+(./Figs/fig4.tex) (./Table/table.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1903,24 +1904,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Asgn7.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Asgn7.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Asgn7.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53680 strings out of 474222
- 1273967 string characters out of 5748734
+ 53688 strings out of 474222
+ 1274092 string characters out of 5748734
  1961975 words of memory out of 5000000
- 75032 multiletter control sequences out of 15000+600000
+ 75034 multiletter control sequences out of 15000+600000
  651790 words of font info for 250 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,9n,109p,1195b,1124s stack positions out of 10000i,1000n,20000p,200000b,200000s

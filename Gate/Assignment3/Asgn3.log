@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  25 OCT 2024 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1890,17 +1890,17 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) (./Fig/fig.tex)
-(./Fig/fig2.tex) (./Fig/fig3.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdf
-tex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-(./Fig/fig4.tex) (./Fig/fig5.tex
+) (./Figs/fig.tex)
+(./Figs/fig2.tex) (./Figs/fig3.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/p
+dftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+(./Figs/fig4.tex) (./Figs/fig5.tex
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <10> not available
 (Font)              Font shape `TS1/txr/bx/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <7> not available
 (Font)              Font shape `TS1/txr/bx/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <5> not available
 (Font)              Font shape `TS1/txr/bx/n' tried instead on input line 32.
-) [2] (./Fig/fig6.tex) (./Fig/figure.tex)
+) [2] (./Figs/fig6.tex) (./Figs/figure.tex)
 [3] (./Asgn3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1911,7 +1911,7 @@ Package rerunfilecheck Info: File `Asgn3.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  54258 strings out of 474222
- 1290407 string characters out of 5748734
+ 1290443 string characters out of 5748734
  1968975 words of memory out of 5000000
  75602 multiletter control sequences out of 15000+600000
  648266 words of font info for 244 fonts, out of 8000000 for 9000

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  24 OCT 2024 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1890,12 +1890,12 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) (./Fig/fig.tex
+) (./Figs/fig.tex
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 15.
 )
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}] [2] (./Fig/figure.tex) (./Fig/figure2.tex)
-(./Fig/figure1.tex) (./Fig/figure3.tex) [3] (./Asgn2.aux)
+dist/fonts/enc/dvips/base/8r.enc}] [2] (./Figs/figure.tex) (./Figs/figure2.tex)
+(./Figs/figure1.tex) (./Figs/figure3.tex) [3] (./Asgn2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1905,7 +1905,7 @@ Package rerunfilecheck Info: File `Asgn2.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  53279 strings out of 474222
- 1261098 string characters out of 5748734
+ 1261124 string characters out of 5748734
  1966975 words of memory out of 5000000
  74608 multiletter control sequences out of 15000+600000
  641499 words of font info for 219 fonts, out of 8000000 for 9000

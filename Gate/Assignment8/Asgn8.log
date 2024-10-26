@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1890,13 +1890,13 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) (./Table/table.tex)
+) (./Tables/table.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}] [2] (./Fig/fig.tex) (./Table/table1.tex)
+dist/fonts/enc/dvips/base/8r.enc}] [2] (./Fig/fig.tex) (./Tables/table1.tex)
 [3] (./Asgn8.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1907,7 +1907,7 @@ Package rerunfilecheck Info: File `Asgn8.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  53053 strings out of 474222
- 1256126 string characters out of 5748734
+ 1256137 string characters out of 5748734
  1947975 words of memory out of 5000000
  74410 multiletter control sequences out of 15000+600000
  625891 words of font info for 172 fonts, out of 8000000 for 9000

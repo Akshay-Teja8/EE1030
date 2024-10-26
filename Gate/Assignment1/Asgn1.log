@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  24 OCT 2024 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1900,17 +1900,17 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/base/8r.enc}] (./Table/table.tex) (./Figure/fig6.tex) (.
-/Figure/fig.tex
+f-dist/fonts/enc/dvips/base/8r.enc}] (./Table/table.tex) (./Figures/fig6.tex) (
+./Figures/fig.tex
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 22.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [2] (./Figure/fig2.tex) (./Figure/fig5.tex) [3] (./Figure/fig4.tex
+) [2] (./Figures/fig2.tex) (./Figures/fig5.tex) [3] (./Figures/fig4.tex
 LaTeX Font Info:    Calculating math sizes for size <20> on input line 34.
 )
-(./Figure/fig3.tex) [4] (./Asgn1.aux)
+(./Figures/fig3.tex) [4] (./Asgn1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1924,7 +1924,7 @@ Package rerunfilecheck Info: File `Asgn1.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  53768 strings out of 474222
- 1274540 string characters out of 5748734
+ 1274571 string characters out of 5748734
  1952975 words of memory out of 5000000
  75078 multiletter control sequences out of 15000+600000
  665434 words of font info for 292 fonts, out of 8000000 for 9000
