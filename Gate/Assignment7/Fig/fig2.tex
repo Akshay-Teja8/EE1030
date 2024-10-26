@@ -1,0 +1,20 @@
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw [short] (7.5,17) -- (7.5,12);
+\draw [short] (7.5,12) -- (15,12);
+\draw (7.75,14.25) to[R] (8.75,14.25);
+\draw (8.75,14.25) to[R] (9.75,14.25);
+\draw (9.75,14.25) to[R] (10.75,14.25);
+\draw [short] (7.5,14.25) -- (7.75,14.25);
+\draw [short] (10.75,14.25) -- (11,14.25);
+\draw  (11,15.5) rectangle (14.25,13);
+\draw  (11.5,12.5) circle (0.5cm);
+\draw  (13.75,12.5) circle (0.5cm);
+\draw [->, >=Stealth] (14.25,14) -- (15,14);
+\node [font=\Large] at (17.25,14.5) {F(t)=100 $\cos$ (100 t) N};
+\node [font=\Large] at (9.5,14.75) {k=3000 N m$^{-1}$};
+\node [font=\Large] at (12.5,14.5) {$m$};
+\end{circuitikz}
+}%
+
