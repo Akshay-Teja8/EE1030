@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1856,43 +1856,47 @@ Package hyperref Info: Link coloring OFF on input line 37.
 \openout5 = `Asgn8.out'.
 
 \c@lstlisting=\count399
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 58
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 59
 .
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-8.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-8.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-8.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) (./Table/table.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] (./Fig/fig.tex) (.
-/Table/table1.tex)
+) (./Table/table.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/base/8r.enc}] [2] (./Fig/fig.tex) (./Table/table1.tex)
 [3] (./Asgn8.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1902,23 +1906,23 @@ Package rerunfilecheck Info: File `Asgn8.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53051 strings out of 474222
- 1256115 string characters out of 5748734
+ 53053 strings out of 474222
+ 1256126 string characters out of 5748734
  1947975 words of memory out of 5000000
  74410 multiletter control sequences out of 15000+600000
- 624541 words of font info for 170 fonts, out of 8000000 for 9000
+ 625891 words of font info for 172 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,12n,109p,1195b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,12n,109p,1195b,1049s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on Asgn8.pdf (3 pages, 51453 bytes).
+w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Asgn8.pdf (3 pages, 61539 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  72 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
