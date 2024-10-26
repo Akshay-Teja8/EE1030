@@ -1,0 +1,22 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw [line width=0.5pt](6.75,17.25) to[C] (9.75,17.25);
+\draw [line width=0.5pt](8.75,17.25) to[L ] (11.5,17.25);
+\draw [ line width=0.5pt](6.75,17.25) to[short] (6.75,15.75);
+\draw (9.25,16) to[R] (11.5,16);
+\draw (11.5,17.25) to[short] (11.5,14.75);
+\draw [ line width=0.5pt](6.75,14.75) to[R] (8.75,14.75);
+\draw [ line width=0.5pt](8.75,14.75) to[sinusoidal voltage source, sources/symbol/rotate=auto] (11.5,14.75);
+\draw [ line width=0.5pt](6.75,16) to[short] (9.25,16);
+\draw [->, >=Stealth] (6.75,14.75) -- (6.75,15.75);
+\node [font=\Large] at (6,15.5) {i(t)};
+\node [font=\Large] at (7.75,15.25) {1 $\Omega$};
+\node [font=\Large] at (10.25,16.5) {1 $\Omega$};
+\node [font=\Large] at (10.25,14) {(1.0 sint)V};
+\node [font=\Large] at (8.25,18) {1 F};
+\node [font=\Large] at (10,18) {1 H};
+\node [font=\Large] at (9.5,14.5) {+};
+\end{circuitikz}
+}%
+

@@ -1,0 +1,230 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2011-EE-1-13}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 1
+\item Roots of the algebraic equation $x^3 + x^2 + x + 1 = 0$ are
+\begin{multicols}{2}
+        \begin{enumerate}
+            \item $(+l, +j, -j)$
+            \item $(+1, -1, +1)$
+            \item $(0, 0, 0)$
+            \item $(-1, +j, -j)$
+        \end{enumerate}
+\end{multicols}
+ 
+% Question 2
+\item With $K$ as a constant, the possible solution for the first-order differential equation $\frac{d y}{d x} = e^{-3 x}$ is
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item $-\frac{1}{3} e^{-3 x} + K$
+        \item $-\frac{1}{3} e^{3 x} + K$
+        \item $-3 e^{-3 x} + K$
+        \item $-3 e^{-x} + K$
+    \end{enumerate}
+\end{multicols}
+
+% Question 3
+\item The r.m.s. value of the current $i(t)$ in the circuit shown below is
+\begin{center}
+    \input{Fig/fig.tex}
+\end{center}
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item $\frac{1}{2} \, A$
+        \item $\frac{1}{\sqrt{2}} \, A$
+        \item 1 A
+        \item $\sqrt{2} \, A$
+    \end{enumerate}
+\end{multicols}
+
+% Question 4
+\item The Fourier series expansion $f(t) = a_0 + \sum_{n=1}^{\infty} a_n \cos(n \omega t) + b_n \sin(n \omega t)$ of the periodic signal shown below will contain the following nonzero terms
+\begin{center}
+    \input{Fig/fig2.tex}
+\end{center}
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item $a_0$ and $b_n$, $n=1,3,5, \ldots \infty$
+        \item $a_0$ and $a_n$, $n=1,2,3, \ldots \infty$
+        \item $a_0$, $a_n$, and $b_n$, $n=1,2,3, \ldots \infty$
+        \item $a_0$ and $a_n$, $n=1,3,5, \ldots \infty$
+    \end{enumerate}
+\end{multicols}
+
+% Question 5
+\item A 4-point starter is used to start and control the speed of a
+    \begin{enumerate}
+        \item dc shunt motor with armature resistance control
+        \item dc shunt motor with field weakening control
+        \item dc series motor
+        \item dc compound motor
+    \end{enumerate}
+
+% Question 6
+\item A three-phase, salient pole synchronous motor is connected to an infinite bus. It is operated at no load at normal excitation. The field excitation of the motor is first reduced to zero and then increased in the reverse direction gradually. Then the armature current
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item increases continuously
+        \item first increases and then decreases steeply
+        \item first decreases and then increases steeply
+        \item remains constant
+    \end{enumerate}
+\end{multicols}
+
+% Question 7
+\item A nuclear power station of 500 MW capacity is located at 300 km away from a load center. Select the most suitable power evacuation transmission configuration among the following options
+    \begin{enumerate}
+        \item \input{Fig/fig3.tex}
+        \item \input{Fig/fig4.tex}
+        \item \input{Fig/fig5.tex}
+        \item \input{Fig/fig6.tex}
+    \end{enumerate}
+
+% Question 8
+\item The frequency response of a linear system $G(j \omega)$ is provided in the tabular form below
+\begin{center}
+\begin{table}[h!]
+    \centering
+    \input{Table/table.tex}
+    \label{tab:EE-2011}
+\end{table}
+\end{center}
+The gain margin and phase margin of the system are
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item 6 dB and $30\degree$
+        \item 6 dB and $-30\degree$
+        \item -6 dB and $30\degree$
+        \item -6 dB and $-30\degree$
+    \end{enumerate}
+\end{multicols}
+
+% Question 9
+\item The steady-state error of a unity feedback linear system for a unit step input is 0.1. The steady-state error of the same system, for a pulse input $r(t)$ having a magnitude of 10 and a duration of one second, as shown in the figure is
+\begin{center}
+    \input{Fig/figur.tex}
+\end{center}
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item 0
+        \item 0.1
+        \item 1
+        \item 10
+    \end{enumerate}
+\end{multicols}
+
+% Question 10
+\item Consider the following statements:
+\begin{itemize}
+    \item[(i)] The compensating coil of a low power factor wattmeter compensates the effect of the impedance of the current coil.
+    \item[(ii)] The compensating coil of a low power factor wattmeter compensates the effect of the impedance of the voltage coil circuit.
+\end{itemize}
+
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item (i) is true but (ii) is false
+        \item (i) is false but (ii) is true
+        \item both (i) and (ii) are true
+        \item both (i) and (ii) are false
+    \end{enumerate}
+\end{multicols}
+
+% Question 11
+\item A low-pass filter with a cut-off frequency of 30 Hz is cascaded with a high-pass filter with a cut-off frequency of 20 Hz. The resultant system of filters will function as
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item an all-pass filter
+        \item an all-stop filter
+        \item a band stop (band-reject) filter
+        \item a band-pass filter
+    \end{enumerate}
+\end{multicols}
+
+% Question 12
+\item For the circuit shown below, 
+\begin{center}
+    \input{Fig/figure.tex}
+\end{center}
+the CORRECT transfer characteristic is
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item \input{Fig/figure1.tex}
+        \item \input{Fig/figure2.tex}
+        \item \input{Fig/figure3.tex}
+        \item \input{Fig/figure4.tex}
+    \end{enumerate}
+\end{multicols}
+
+% Question 13
+\item A three-phase current source inverter used for the speed control of an induction motor is to be realized using MOSFET switches as shown below. Switches $S_1$ to $S_6$ are identical switches.
+\begin{center}
+    \input{Fig/figure5.tex}
+\end{center}
+The proper configuration for realizing switches $S_1$ to $S_6$ is
+\newpage
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item \input{Fig/figure6.tex}
+        \item \input{Fig/figure7.tex}
+        \item \input{Fig/figure8.tex}
+        \item \input{Fig/figure9.tex}
+    \end{enumerate}
+\end{multicols}
+
+\end{enumerate}
+\end{document}

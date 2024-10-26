@@ -1,0 +1,18 @@
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw [ line width=0.5pt](5.25,16.5) to[sinusoidal voltage source, sources/symbol/rotate=auto] (6,16.5);
+\draw [line width=0.5pt](8,16.25) to[L ] (8,17);
+\draw [line width=0.5pt](7.25,17) to[L ] (7.25,16.25);
+\draw [ line width=0.5pt](6,16.5) to[short] (9.25,16.5);
+\draw [ line width=0.5pt](6.5,16.75) to[short] (6.5,16.25);
+\draw [line width=0.5pt, ->, >=Stealth] (14,16.5) -- (14.5,16.5);
+\node [font=\large] at (11.5,15.75) {132 kV,300 km double circuit with 40\% series capacitor compensation};
+\node [font=\large] at (16,16.5) {Load center};
+\draw [ line width=0.5pt](9,17) to[short] (9,16);
+\draw [ line width=0.5pt](14,17) to[short] (14,16);
+\draw [line width=0.5pt](9.25,16.5) to[C] (11.5,16.5);
+\draw [ line width=0.5pt](11.25,16.5) to[short] (14,16.5);
+\end{circuitikz}
+}%
+
