@@ -1,0 +1,229 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2011-EE-1-13}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 1
+\item Choose the most appropriate word from the options given below to complete the following sentence:
+
+Under ethical guidelines recently adopted by the Indian Medical Association, human genes are to be manipulated only to correct diseases for which \_\_\_\_\_\_\_\_ treatments are unsatisfactory.
+\begin{multicols}{4}
+\begin{enumerate}
+    \item similar
+    \item almost
+    \item uncommon
+    \item unavailable
+\end{enumerate}
+\end{multicols}
+ 
+% Question 2
+\item Choose the word from the options given below that is most nearly opposite in meaning to the given word:
+
+Frequency
+\begin{multicols}{4}
+\begin{enumerate}
+    \item periodicity
+    \item rarity
+    \item gradualness
+    \item persistancy
+\end{enumerate}
+\end{multicols}
+
+
+% Question 3
+\item Choose the most appropriate word from the options given below to complete the following sentence:
+
+It was her view that the country's problems had been \_\_\_\_\_\_\_\_ by foreign technocrats, so that to invite them to come back would be counter-productive.
+\begin{multicols}{4}
+\begin{enumerate}
+    \item identified
+    \item ascertained
+    \item exacerbated
+    \item analysed
+\end{enumerate}
+\end{multicols}
+
+% Question 4
+\item There are two candidates P and Q in an election. During the campaign, 40\% of the voters promised to vote for P and the rest for Q. However, on the day of the election, 15\% of the voters went back on their promise to vote for P and voted for Q instead. Suppose, 25\% of the voters went back on their promise to vote for Q and instead voted for P. Suppose P lost by 2 votes, then what was the total number of voters?
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 100
+    \item 110
+    \item 90
+    \item 95
+\end{enumerate}
+\end{multicols}
+
+% Question 5
+\item The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair.
+
+Gladiator : Arena
+\begin{multicols}{2}
+\begin{enumerate}
+    \item dancer : stage
+    \item commuter : train
+    \item teacher : classroom
+    \item lawyer : courtroom
+\end{enumerate}
+\end{multicols}
+
+% Question 6
+\item The sum of $n$ terms of the series $4 + 44 + 444 + \ldots$ is
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $\frac{4}{81}\sbrak{10^{n+1} - 9n-1}$
+    \item $\frac{4}{81}\sbrak{10^{n-1}- 9n - 1}$
+    \item $\frac{4}{81}\sbrak{10^{n+1} - 9n- 10}$
+    \item $\frac{4}{81}\sbrak{10^{n} - 9n - 10}$
+\end{enumerate}
+\end{multicols}
+
+% Question 7
+\item Given that $f\brak{y}=\frac{\abs{y}}{y}$, and $q$ is any non-zero real number, the value of $\abs{f(q)-f(-q)}$ is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 0
+    \item -1
+    \item 1
+    \item 2
+\end{enumerate}
+\end{multicols}
+
+% Question 8
+\item Three friends, R, S, and T shared toffees from a bowl. R took $\frac{1}{3}$ of the toffees, but returned four to the bowl. S took $\frac{1}{4}$ of what was left but returned three toffees to the bowl. T took half of the remainder but returned two back into the bowl. If the bowl had 17 toffees left, how many toffees were originally there in the bowl?
+\begin{multicols}{2}
+\begin{enumerate}
+    \item 38
+    \item 31
+    \item 48
+    \item 41
+\end{enumerate}
+\end{multicols}
+
+% Question 9
+\item The fuel consumed by a motorcycle during a journey while traveling at various speeds is indicated in the graph below.
+\begin{center}
+    \input{Fig/fig.tex}
+\end{center}
+The distances covered during four laps of the journey are listed in the table below:
+\begin{table}[h!]
+    \centering
+    \input{Table/table.tex}
+    \label{tab:XE-2011}
+\end{table}
+From the given data, we can conclude that the fuel consumed per kilometre was least during the lap
+\begin{multicols}{4}
+\begin{enumerate}
+    \item P
+    \item Q
+    \item R
+    \item S
+\end{enumerate}
+\end{multicols}
+
+% Question 10
+\item The horse has played a little-known but very important role in the field of medicine. Horses were injected with toxins of diseases until their blood built up immunities. Then a serum was made from their blood. Serums to fight diphtheria and tetanus were developed this way.\\
+It can be inferred from the passage that horses were
+\begin{multicols}{2}
+\begin{enumerate}
+    \item given immunity to diseases
+    \item generally quite immune to diseases
+    \item given medicines to fight toxins
+    \item given diphtheria and tetanus serums
+\end{enumerate}
+\end{multicols}
+
+% Question 11
+\item A vector field is called solenoidal if its divergence is zero. Consider the vector fields $\overrightarrow{P}$ and $\overrightarrow{Q}$ given by
+$$
+\begin{aligned}
+    & \overrightarrow{P}(x, y, z)=\brak{2 x^2+8 x y^2 z} \hat{i}+\brak{3 x^3 y-3 x y} \hat{j}-\brak{4 y^2 z^2+2 x^3 z} \hat{k} \text { and } \\
+    & \overrightarrow{Q}(x, y, z)=x y z^2 \overrightarrow{P}(x, y, z)
+\end{aligned}
+$$
+Then
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $\overrightarrow{P}$ and $\overrightarrow{Q}$ are both solenoidal
+    \item both $\overrightarrow{P}$ and $\overrightarrow{Q}$ are not solenoidal
+    \item $\overrightarrow{P}$ is solenoidal but not $\overrightarrow{Q}$
+    \item $\overrightarrow{Q}$ is solenoidal but not $\overrightarrow{P}$
+\end{enumerate}
+\end{multicols}
+
+% Question 12
+\item The eigenvalues of a $3 \times 3$ matrix $P$ are 2, 2, and -1. Then $P^{-1}$ is equal to
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\frac{1}{4}\brak{3 P - P^2}$
+    \item $\frac{1}{2}\brak{P^2 - 2 P}$
+    \item $\frac{-1}{2}\brak{P^2 + 3 P}$
+    \item $\frac{-1}{4}\brak{P^2 + 2 P}$
+\end{enumerate}
+\end{multicols}
+
+% Question 13
+\item The integral $\int_{-5 \pi / 2}^{5 \pi / 2} f(x) \, dx$, where $f(x)=e^{\pi x^2} \sin^3 x + 4 \cos x$, equals
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 4
+    \item 8
+    \item $\frac{5 \pi}{2}$
+    \item $\frac{-5 \pi}{2}$
+\end{enumerate}
+\end{multicols}
+\end{enumerate}
+\end{document}
