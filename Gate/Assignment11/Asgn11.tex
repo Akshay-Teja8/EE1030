@@ -1,0 +1,239 @@
+
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2011-EE-1-13}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 14
+\item The input impedance of the permanent magnet moving coil (PMMC) voltmeter is infinite. Assuming that the diode shown in the figure below is ideal, the reading of the voltmeter in Volts is:
+\begin{center}
+    \input{Figs/fig.tex}
+\end{center}
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item 4.46
+        \item 3.15
+        \item 2.23
+        \item 0
+    \end{enumerate}
+\end{multicols}
+
+% Question 15
+\item The Bode plot of a transfer function $G\brak{s}$ is shown in the figure below.
+\begin{center}
+    \input{Figs/fig4.tex}
+\end{center}The gain $\brak{20 \log \abs{G\brak{s}}}$ is 32 dB and -8 dB at 1 rad/s and 10 rad/s respectively. The phase is negative for all $\omega$. Then $G\brak{s}$ is:
+
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $\frac{39.8}{s}$
+        \item $\frac{39.8}{s^2}$
+        \item $\frac{32}{s}$
+        \item $\frac{32}{s^2}$
+    \end{enumerate}
+\end{multicols}
+
+% Question 16
+\item A bulb in a staircase has two switches, one switch being at the ground floor and the other one at the first floor. The bulb can be turned ON and also can be turned OFF by any one of the switches irrespective of the state of the other switch. The logic of switching of the bulb resembles:
+
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item an AND gate
+        \item an OR gate
+        \item an XOR gate
+        \item a NAND gate
+    \end{enumerate}
+\end{multicols}
+
+% Question 17
+\item For a periodic signal $v\brak{t} = 30 \sin\brak{100t} + 10 \cos\brak{300t} + 6 \sin\brak{500t + \pi/4}$, the fundamental frequency in rad/s is:
+
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item 100
+        \item 300
+        \item 500
+        \item 1500
+    \end{enumerate}
+\end{multicols}
+
+% Question 18
+\item A band-limited signal with a maximum frequency of 5 kHz is to be sampled. According to the sampling theorem, the sampling frequency in kHz which is not valid is:
+
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item 5
+        \item 12
+        \item 15
+        \item 20
+    \end{enumerate}
+\end{multicols}
+
+% Question 19
+\item Consider a delta connection of resistors and its equivalent star connection as shown below. If all elements of the delta connection are scaled by a factor of $k$ $\brak{k>0}$, the elements of the corresponding star equivalent will be scaled by a factor of:
+\begin{multicols}{2}
+    \input{Figs/fig2.tex}
+    \input{Figs/fig3.tex}
+\end{multicols}
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $k^2$
+        \item $k$
+        \item $\frac{1}{k}$
+        \item $\sqrt{k}$
+    \end{enumerate}
+\end{multicols}
+
+    
+% Question 20
+\item The angle $\delta$ in the swing equation of a synchronous generator is the:
+    \begin{enumerate}
+        \item angle between stator voltage and current
+        \item angular displacement of the rotor with respect to the stator
+        \item angular displacement of the stator mmf with respect to a synchronously rotating axis
+        \item angular displacement of an axis fixed to the rotor with respect to a synchronously rotating axis
+    \end{enumerate}
+
+    
+% Question 21
+\item Leakage flux in an induction motor is:
+    \begin{enumerate}
+        \item flux that leaks through the machine
+        \item flux that links both stator and rotor windings
+        \item flux that links none of the windings
+        \item flux that links the stator winding or the rotor winding but not both
+    \end{enumerate}
+
+
+% Question 22
+\item Three moving iron type voltmeters are connected as shown below. Voltmeter readings are $V$, $V_1$, and $V_2$ as indicated. The correct relation among the voltmeter readings is:
+\begin{center}
+    \input{Figs/fig5.tex}
+\end{center}
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $V=\frac{V_1}{\sqrt{2}}+\frac{V_2}{\sqrt{2}}$
+        \item $V=V_1+V_2$
+        \item $V=V_1V_2$
+        \item $V=V_2-V_1$
+    \end{enumerate}
+\end{multicols}
+
+
+% Question 23
+\item Square roots of $-i$, where $i=\sqrt{-1}$, are:
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item $i, -i$
+        \item $\cos \brak{-\frac{\pi}{4} }+i\sin \brak{-\frac{\pi}{4} }, \cos \brak{\frac{3\pi}{4} }+i\sin \brak{\frac{3\pi}{4} }$
+        \item $\cos \brak{\frac{\pi}{4} }+i\sin \brak{\frac{3\pi}{4} }, \cos \brak{\frac{3\pi}{4} }+i\sin \brak{\frac{\pi}{4} }$
+        \item $\cos \brak{\frac{3\pi}{4} }+i\sin \brak{-\frac{3\pi}{4} }, \cos \brak{-\frac{3\pi}{4} }+i\sin \brak{\frac{3\pi}{4}}$
+    \end{enumerate}
+\end{multicols}
+
+% Question 24
+\item Given a vector field $F=y^2x a_x - yz a_y - x^2 a_z$, the line integral $\int F \cdot dl$ evaluated along a segment on the x-axis from $x=1$ to $x=2$ is:
+
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $-2.33$
+        \item $0$
+        \item $2.33$
+        \item $7$
+    \end{enumerate}
+\end{multicols}
+
+
+    
+% Question 25
+\item The equation $\begin{bmatrix}
+    2&-2\\1&-1
+\end{bmatrix}\begin{bmatrix}
+    x_1\\x_2
+\end{bmatrix} = \begin{bmatrix}
+    0\\0
+\end{bmatrix}$ has
+\begin{multicols}{2}
+\begin{enumerate}
+    \item no solution
+    \item only one solution $\begin{bmatrix}
+        x_1\\x_2
+    \end{bmatrix} = \begin{bmatrix}
+        0\\0
+    \end{bmatrix}$
+    \item non-zero unique solution
+    \item multiple solution
+\end{enumerate}
+\end{multicols}
+
+% Question 26
+\item A strain gauge forms one arm of the bridge shown in the figure below and has a nominal resistance without any load as $R_1 = 300 \ \Omega$. Other bridge resistances are $R_2 = R_3 = R_4 = 300 \ \Omega$. The maximum permissible current through the strain gauge is 20 mA. During a certain measurement when the bridge is excited by maximum permissible voltage and the strain gauge resistance is increased by 1\% over the nominal value, the output voltage $V_0$ in mV is:
+\begin{center}
+    \input{Figs/fig6.tex}
+\end{center}
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 56.02
+    \item 40.83
+    \item 29.85
+    \item 10.02
+\end{enumerate}
+\end{multicols}
+
+
+\end{enumerate}
+\end{document}
+

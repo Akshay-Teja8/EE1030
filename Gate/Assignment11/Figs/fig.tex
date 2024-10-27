@@ -1,0 +1,23 @@
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw (8.5,17.25) to[sinusoidal voltage source, sources/symbol/rotate=auto] (8.5,15);
+\draw (8.5,17.25) to[R] (13.5,17.25);
+\draw (13.5,17.25) to[D] (13.5,15);
+\draw (8.5,15) to[short] (15.75,15);
+\draw (13.5,17.25) to[short] (15.75,17.25);
+\draw (15.75,17.25) to[R] (15.75,15);
+\draw  (17.5,16.25) circle (0.5cm);
+\draw [->, >=Stealth] (17.25,16) -- (17.75,16.5);
+\draw [->, >=Stealth] (17.5,16.75) .. controls (17.25,17) and (16.75,17.5) .. (15.75,17.25) ;
+\draw [->, >=Stealth] (17.5,15.75) .. controls (17.25,15.25) and (16.75,15) .. (15.75,15) ;
+\node [font=\large] at (18,16.75) {-};
+\node [font=\large] at (18,15.75) {+};
+\node [font=\Large] at (19.25,16.25) {Voltmeter};
+\node [font=\Large] at (11,16) {14.14 sin(314 t)V};
+\node [font=\Large] at (10.75,18) {1 k$\Omega$};
+\draw (13.5,15) to (13.5,14.75) node[ground]{};
+\node [font=\Large] at (14.75,16.25) {100 k$\Omega$};
+\end{circuitikz}
+}%
+

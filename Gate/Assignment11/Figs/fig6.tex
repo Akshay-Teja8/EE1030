@@ -1,0 +1,26 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw (9.25,17.75) to[battery1] (9.25,13.75);
+\draw (9.25,17.75) to[short] (12.25,17.75);
+\draw (12.25,17.75) to[R] (10.25,15.75);
+\draw (12.25,17.75) to[R] (14.25,15.75);
+\draw (10.25,15.75) to[R] (12.25,13.75);
+\draw (12.25,13.75) to[R] (14.25,15.75);
+\draw (9.25,13.75) to[short] (12.25,13.75);
+\node [font=\Large] at (12.25,16.75) {$V_0$};
+\node [font=\Large] at (14.25,17) {$R_1$};
+\node [font=\Large] at (13.75,14.25) {$R_2$};
+\node [font=\Large] at (10.75,14.5) {$R_3$};
+\node [font=\Large] at (10.75,17) {$R_S$};
+\draw [->, >=Stealth] (11.25,16.25) -- (11.25,17.25);
+\draw  (12.25,15.75) circle (0.5cm);
+\draw (10.25,15.75) to[short] (11.75,15.75);
+\draw (12.75,15.75) to[short] (14.25,15.75);
+\draw [->, >=Stealth] (12,15.5) -- (12.5,16);
+\node [font=\normalsize] at (13,16) {+};
+\node [font=\normalsize] at (11.5,16) {-};
+\node [font=\Large] at (8.5,15.75) {$V_i$};
+\end{circuitikz}
+}%
+

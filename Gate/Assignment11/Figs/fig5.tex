@@ -1,0 +1,28 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw (8.5,17) to[rmeter, t=V] (8.5,14.75);
+\draw (8.5,17) to[short] (10,17);
+\draw (10,17) to[C] (12,17);
+\draw (10,17) to[short] (10,15.75);
+\draw (12,17) to[short] (12,15.75);
+\draw (10,15.75) to[rmeter, t=V] (12,15.75);
+\draw [short] (13,17) .. controls (13.25,17.5) and (13.75,17.5) .. (13.75,17);
+\draw [short] (14.5,17) .. controls (14.75,17.5) and (15.25,17.5) .. (15.25,17);
+\draw [short] (13.75,17) .. controls (14,17.5) and (14.5,17.5) .. (14.5,17);
+\draw (15.25,17) to[short] (16.5,17);
+\draw (16.5,17) to[short] (16.5,14.75);
+\draw (16.5,14.75) to[short] (8.5,14.75);
+\draw (12,17) to[short] (13,17);
+\draw (13,17) to[short] (13,15.75);
+\draw (15.5,17) to[short] (15.5,15.75);
+\draw (13,15.75) to[rmeter, t=V] (15.5,15.75);
+\draw [->, >=Stealth] (16.75,16.75) -- (16.75,15.25);
+\node [font=\Large] at (17,16) {$I$};
+\node [font=\normalsize] at (11.25,15.75) {$1$};
+\node [font=\normalsize] at (14.5,15.75) {$2$};
+\node [font=\Large] at (11,17.75) {$-j 1\Omega$};
+\node [font=\Large] at (14.25,17.75) {$j 2\Omega$};
+\end{circuitikz}
+}%
+
