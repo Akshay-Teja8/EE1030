@@ -1,0 +1,182 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2011-EE-1-13}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 27
+\item An electron in the ground state of the hydrogen atom has the wave function: $$\psi \brak{\overrightarrow{r}} = \frac{1}{\sqrt{\pi a_0^3}} e^{-\brak{\frac{r}{a_0}}}$$ where $a_0$ is a constant. The expectation value of the operator $\hat{Q} = z^2 - r^2$, where $z = r \cos \theta$, is\\(Hint: $\int_0^\infty e^{-ar} r^ndr=\frac{\Gamma\brak{n}}{\alpha^{n+1}}=\frac{\brak{n-1}!}{\alpha^{n+!}}$
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $-\frac{a_0^2}{2}$
+    \item $-a_0^2$
+    \item $-\frac{3a_0^2}{2}$
+    \item $-2a_0^2$
+\end{enumerate}
+\end{multicols}
+
+% Question 28
+\item For Nickel, the number density is $8 \times 10^{23}$ atoms/cm$^3$ and the electronic configuration is \\$1 s^2 2 s^2 2 p^6 3 s^2 3 p^6 3 d^8 4 s^2$. The value of the saturation magnetization of Nickel in its ferromagnetic state is:
+
+(Given the value of Bohr magneton $\mu_B = 9.21 \times 10^{-21}$Am$^2$)
+
+
+% Question 29
+\item A particle of mass $m$ is in a potential given by $$V \brak{r} = -\frac{a}{r} + \frac{a r_0^2}{3 r^3}$$ where $a$ and $r_0$ are positive constants. When disturbed slightly from its stable equilibrium position, it undergoes simple harmonic oscillation. The time period of oscillation is:
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $2\pi \sqrt{\frac{m r_0^3}{2a}}$
+    \item $2\pi \sqrt{\frac{m r_0^3}{a}}$
+    \item $2\pi \sqrt{\frac{2 m r_0^3}{a}}$
+    \item $4\pi \sqrt{\frac{m r_0^3}{a}}$
+\end{enumerate}
+\end{multicols}
+
+% Question 30
+\item The donor concentration in a sample of $n$-type silicon is increased by a factor of 100. The shift in the position of the Fermi level at 300K, assuming the sample to be non-degenerate is \\  
+($k_B T = 25$ meV at 300K)
+
+
+
+
+% Question 31
+\item A particle of mass $m$ is subjected to a potential: $$V \brak{x, y} = \frac{1}{2} m \omega^2  \brak{x^2 + y^2}, -\infty \leq x \leq \infty, -\infty \leq y \leq \infty$$. The state with energy $4\hbar \omega$ is $g$-fold degenerate. The value of $g$ is:
+
+
+% Question 32
+\item A hydrogen atom is in the state: $$\psi = \sqrt{\frac{8}{21}} \psi_{200} - \sqrt{\frac{3}{7}} \psi_{310} + \sqrt{\frac{4}{21}} \psi_{321},$$ where $n$, $l$, $m$ in $\psi_{n l m}$ denote the principal, orbital, and magnetic quantum numbers, respectively. If $\overrightarrow{L}$ is the angular momentum operator, the average value of $ L^2$ is \,\,\,\,\,$h^2$
+
+    
+% Question 33
+\item A planet of mass $m$ moves in a circular orbit of radius $r_0$ in the gravitational potential $V \brak{r} = -\frac{k}{r}$, where $k$ is a positive constant. The orbital angular momentum of the planet is:
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $2 r_0 k m$
+    \item $\sqrt{2 r_0 k m}$
+    \item $r_0 k m$
+    \item $\sqrt{r_0 k m}$
+\end{enumerate}
+\end{multicols}
+
+    
+% Question 34
+\item The moment of inertia of a rigid diatomic molecule A is 6 times that of another rigid diatomic molecule B. If the rotational energies of the two molecules are equal, then the corresponding values of the rotational quantum numbers $J_A$ and $J_B$ are:
+
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $J_A = 2$, $J_B = 1$
+    \item $J_A = 3$, $J_B = 1$
+    \item $J_A = 5$, $J_B = 0$
+    \item $J_A = 6$, $J_B = 1$
+\end{enumerate}
+\end{multicols}
+
+
+
+% Question 35
+\item The value of the integral:$$\oint_C \frac{z^2}{e^z + 1} \, dz,$$
+where $C$ is the circle $\abs{z} = 4$, is:
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $2 \pi i$
+    \item $2 \pi^2 i$
+    \item $4 \pi^3 i$
+    \item $4 \pi^2 i$
+\end{enumerate}
+\end{multicols}
+
+% Question 36
+\item A ray of light inside Region 1 in the $xy$-plane is incident at the semicircular boundary that carries no free charges. The electric field at the point $P\brak{r, \pi/4}$ in plane polar coordinates is $\overrightarrow{E_1} = 7 e_0 \hat{e}_r - 3 e_0 \hat{e}_{\theta}$where $\hat{e}_r$ and $\hat{e}_{\theta}$ are the unit vectors. The emerging ray in Region 2 has the electric field $\overrightarrow{E_2}$ parallel to the $x$-axis. If $\epsilon_1$ and $\epsilon_2$ are the dielectric constants of Region 1 and Region 2 respectively, then $\frac{\epsilon_1}{\epsilon_2}$ is
+\begin{center}
+    \input{Figs/fig.tex}
+\end{center}
+
+% Question 37
+\item The solution of the differential equation: $$\frac{d^2 y}{dt^2} - y = 0$$subject to the boundary conditions $y\brak{0} = 1$ and $y\brak{\infty} = 0$, is:
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\cos t + \sin t$
+    \item $\cosh t + \sinh t$
+    \item $\cos t - \sin t$
+    \item $\cosh t - \sinh t$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 38
+\item Given that the linear transformation of a generalized coordinate $q$ and the corresponding momentum $p$,  
+$$
+Q = q + 4a p
+$$
+$$
+P = q + 2p
+$$
+is canonical, the value of the constant $a$ is:
+
+
+
+
+    
+% Question 39
+\item The value of the magnetic field required to maintain non-relativistic protons of energy 1 MeV in a circular orbit of radius 100 mm is:  
+
+(Given: $m_p = 1.67 \times 10^{-27}$ kg, e = 1.6 $\times 10^{-19}$ C)
+\end{enumerate}
+\end{document}
+
