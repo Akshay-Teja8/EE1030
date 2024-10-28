@@ -1,0 +1,24 @@
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+
+
+\draw [short] (6.25,13.5) -- (8,13.5);
+\draw [short] (12,13.25) -- (16.5,13.25);
+\draw  (13.5,14.25) rectangle (15,13.25);
+\draw [short] (9.25,17.25) -- (14.25,13.75);
+\draw [short] (6.75,14.25) -- (6.75,13.5);
+\draw [short] (7.75,14.25) -- (7.75,13.5);
+\draw [short] (6.75,14.25) .. controls (6.75,15) and (7.75,15) .. (7.75,14.25);
+\draw  (7.25,14.25) circle (0.25cm);
+\draw [short] (7.25,14.25) -- (9.25,17.25);
+\draw  (14.25,13.75) circle (0.25cm);
+\draw [short] (5.25,14.25) -- (7.25,14.25);
+\draw [->, >=Stealth] (6.25,14.25) .. controls (6.25,15) and (7.25,15.25) .. (7.75,15) ;
+\node [font=\LARGE] at (6.5,15.25) {$\theta$};
+\node [font=\LARGE] at (14.25,15) {m};
+\draw [->, >=Stealth] (7.75,16.75) .. controls (8.75,16.5) and (9,15.75) .. (8.5,15) ;
+\node [font=\LARGE] at (8.25,17) {$\tau$};
+\end{circuitikz}
+}%
+

@@ -1,0 +1,27 @@
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [short] (6,18.5) -- (8.5,18.5);
+\draw [short] (6.5,18.5) -- (6.5,17.25);
+\draw [short] (8,18.5) -- (8,17.25);
+\draw [short] (6.5,17.25) .. controls (6.75,16.25) and (7.75,16.25) .. (8,17.25);
+\draw [line width=0.8pt, short] (7.25,17.5) -- (12.25,14.75);
+\draw [line width=0.8pt, short] (12.25,14.75) -- (16,17.5);
+\draw  (7.25,17.5) circle (0.5cm);
+\draw [short] (14.75,18.5) -- (17.25,18.5);
+\draw [short] (15.25,18.5) -- (15.25,17.25);
+\draw [short] (16.75,18.5) -- (16.75,17.25);
+\draw [short] (15.25,17.25) .. controls (15.5,16.25) and (16.5,16.25) .. (16.75,17.25);
+\draw  (16,17.5) circle (0.5cm);
+\draw [dashed] (10,14.75) -- (14.75,14.75);
+\draw [short] (10.75,15.5) .. controls (10.5,15.25) and (10.25,15) .. (10.5,14.75);
+\draw [short] (13.25,15.5) .. controls (13.75,15.25) and (14,15) .. (13.75,14.75);
+\node [font=\LARGE] at (14.5,15.25) {30$\degree$};
+\node [font=\LARGE] at (10,15.25) {30$\degree$};
+\node [font=\LARGE] at (6.25,17.5) {A};
+\node [font=\LARGE] at (12.25,15.5) {B};
+\node [font=\LARGE] at (17.25,17.5) {C};
+\draw [->, >=Stealth] (12.25,14.75) -- (12.25,13.5) node[right] {100N};
+\end{circuitikz}
+}%
+

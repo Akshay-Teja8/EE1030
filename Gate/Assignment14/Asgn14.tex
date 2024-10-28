@@ -1,0 +1,173 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2015-EE-14-26}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 14
+\item The value of $\lim_{{x \to 0}} \frac{1 - \cos(x^2)}{2x^4} $ is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 0
+    \item $\frac{1}{2}$
+    \item $\frac{1}{4}$
+    \item undefined
+\end{enumerate}
+\end{multicols}
+
+% Question 15
+\item Given two complex numbers $z_1 = 5 + \brak{5\sqrt{3}}i$ and $z_2 = \frac{2}{\sqrt{3}} + 2i$, the argument of $\frac{z_1}{z_2}$ in degrees is $60^\circ$.
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 0
+    \item 30
+    \item 60
+    \item 90
+\end{enumerate}
+\end{multicols}
+
+
+% Question 16
+\item Consider fully developed flow in a circular pipe with negligible entrance length effects. Assuming the mass flow rate, density and friction factor to be constant, if the length of the pipe is doubled and the diameter is halved, the head loss due to friction will increase by a factor of
+\begin{multicols}{4}
+\begin{enumerate}
+    \item 4
+    \item 16
+    \item 32
+    \item 64
+\end{enumerate}
+\end{multicols}
+
+% Question 17
+\item The Blasius equation related to boundary layer theory is a
+
+\begin{enumerate}
+    \item third-order linear partial differential equation
+    \item third-order nonlinear partial differential equation
+    \item second-order nonlinear ordinary differential equation
+    \item third-order nonlinear ordinary differential equation
+\end{enumerate}
+
+
+% Question 18
+\item For flow of viscous fluid over a flat plate, if the fluid temperature is the same as the plate temperature, the thermal boundary layer is
+
+\begin{enumerate}
+    \item thinner than the velocity boundary layer
+    \item thicker than the velocity boundary layer
+    \item of the same thickness as the velocity boundary layer
+    \item not formed at all
+\end{enumerate}
+
+
+% Question 19
+\item For an ideal gas with constant values of specific heats, for calculation of the specific enthalpy:
+
+\begin{enumerate}
+    \item it is sufficient to know only the temperature
+    \item both temperature and pressure are required to be known
+    \item both temperature and volume are required to be known
+    \item both temperature and mass are required to be known
+\end{enumerate}
+
+% Question 20
+\item A Carnot engine (CE-1) works between two temperature reservoirs A and B, where $T_A = 900$ K and $T_B = 500$ K. A second Carnot engine (CE-2) works between temperature reservoirs B and C, where $T_C = 300$ K. In each cycle of CE-1 and CE-2, all the heat rejected by CE-1 to reservoir B is used by CE-2. For one cycle of operation, if the net heat $Q$ absorbed by CE-1 from reservoir A is 150 MJ, the net heat rejected to reservoir C by CE-2 (in MJ) is
+
+
+    
+% Question 21
+\item Air enters a diesel engine with a density of 1.0 kg/m$^3$. The compression ratio is 21. At steady state, the air intake is $30 \times 10^3$ kg/s and the net work output is 15 kW. The mean effective pressure (in kPa) is
+
+
+% Question 22
+\item A stream of moist air (mass flow rate = 10.1 kg/s) with humidity ratio of 0.01 $\frac{kg}{kgs\,dry\,air}$ mixes with a second stream of superheated water vapour flowing at 0.1 kg/s. Assuming proper and uniform mixing with no condensation, the humidity ratio of the final stream (in $\frac{kg}{kgs\,dry\,air}$) is
+
+
+% Question 23
+\item A wheel of radius $r$ rolls without slipping on a horizontal surface as shown below. If the velocity of point $P$ is 10 m/s in the horizontal direction, the magnitude of velocity of point $Q$ (in m/s) is
+\begin{center}
+    \input{Figs/fig.tex}
+\end{center}
+
+% Question 24
+\item Consider a slider crank mechanism with nonzero masses and inertia. A constant torque $T$ is applied on the crank as shown in the figure. Which of the following plots best resembles variation of crank angle $\theta$ versus time?
+\begin{center}
+    \input{Figs/fig2.tex}
+\end{center}
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item \input{Figs/fig3.tex}
+        \item \input{Figs/fig4.tex}
+        \item \input{Figs/fig5.tex}
+        \item \input{Figs/fig6.tex}
+    \end{enumerate}
+\end{multicols}
+
+% Question 25
+\item Consider a stepped shaft subjected to a twisting moment applied at $B$ as shown in the figure. Assume shear modulus, $G = 77$ GPa. The angle of twist at $C$ (in degrees) is
+\begin{center}
+    \input{Figs/figur.tex}
+\end{center}
+    
+% Question 26
+\item Two identical trusses support a load of 100 N as shown in the figure. The length of each truss is 1.0 m; cross-sectional area is 200 mm$^2$; Young's modulus $E = 200$ GPa. The force in the truss $AB$ (in N) is
+\begin{center}
+    \input{Figs/figure.tex}
+\end{center}
+
+
+\end{enumerate}
+\end{document}
