@@ -1,0 +1,191 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2015-ME-27-39}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 27
+\item Consider a steel (Young's modulus $E = 200$ GPa) column hinged on both sides. Its height is $1.0$ m and cross-section is $10$ mm $\times$ $20$ mm. The lowest Euler critical buckling load (in N) is
+
+
+% Question 28
+\item A swimmer can swim $10$ km in $2$ hours when swimming along the flow of a river. While swimming against the flow, she takes $5$ hours for the same distance. Her speed in still water (in km/h) is
+
+
+% Question 29
+\item Which one of the following is the most conservative fatigue failure criterion?
+\begin{multicols}{4}
+\begin{enumerate}
+    \item Soderberg
+    \item Modified Goodman
+    \item ASME Elliptic
+    \item Gerber
+\end{enumerate}
+\end{multicols}
+
+% Question 30
+\item Which one of the following types of stress-strain relationship best describes the behaviour of brittle materials, such as ceramics and thermosetting plastics, $(\sigma =$ stress and  $\varepsilon =$ strain)?
+
+\begin{multicols}{2}
+\begin{enumerate}
+    \item \input{Figs/fig.tex}
+    \item \input{Figs/fig2.tex}
+    \item \input{Figs/fig3.tex}
+    \item \input{Figs/fig4.tex}
+\end{enumerate}
+\end{multicols}
+
+
+
+
+% Question 31
+\item Match the following products with preferred manufacturing processes:
+\begin{table}[h!]
+    \centering
+    \input{Tables/table.tex}
+    \label{tab:ME-2015}
+\end{table}
+\begin{multicols}{4}
+\begin{enumerate}
+    \item P-4, Q-3, R-1, S-2
+    \item P-4, Q-3, R-2, S-1
+    \item P-2, Q-4, R-3, S-1
+    \item P-3, Q-4, R-2, S-1
+\end{enumerate}
+\end{multicols}
+
+
+% Question 32
+\item Holes of diameter $25.0^{+0.040}_{-0.020}$ mm are assembled interchangeably with the pins of diameter $25.0^{+0.005}_{-0.008}$ mm. The minimum clearance in the assembly will be
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $0.048$ mm
+    \item $0.015$ mm
+    \item $0.005$ mm
+    \item $0.008$ mm
+\end{enumerate}
+\end{multicols}
+    
+% Question 33
+\item Under certain cutting conditions, doubling the cutting speed reduces the tool life to $\brak
+{\frac{1}{16}}^{th}$ of the original. Taylor's tool life index $\brak{n}$ for this tool-workpiece combination will be 
+
+
+
+    
+% Question 34
+\item In a linear arc welding process, the heat input per unit length is inversely proportional to
+
+\begin{multicols}{2}
+\begin{enumerate}
+    \item welding current
+    \item welding voltage
+    \item welding speed
+    \item duty cycle of the power source
+\end{enumerate}
+\end{multicols}
+
+
+
+% Question 35
+\item The function of interpolator in a CNC machine controller is to
+
+\begin{enumerate}
+    \item control spindle speed
+    \item coordinate feed rates of axes
+    \item control tool rapid approach speed
+    \item perform Miscellaneous (M) functions (tool change, coolant control etc.)
+\end{enumerate}
+
+% Question 36
+\item Consider a spatial curve in three-dimensional space given in parametric form by$$
+x\brak{t} = \cos t, \, y\brak{t} = \sin t, \, z\brak{t} = \frac{2}{\pi}t, \, 0 \leq t \leq \frac{\pi}{2}
+$$
+
+The length of the curve is
+
+% Question 37
+\item Consider an ant crawling along the curve $\brak{x - 2}^2 + y^2 = 4$, where $x$ and $y$ are in meters. The ant starts at the point $\brak{4, 0}$ and moves counter-clockwise with a speed of $1.57$ meters per second. The time taken by the ant to reach the point $\brak{2, 2}$ is (in seconds)
+
+
+
+% Question 38
+\item Find the solution of $\frac{d^2 y}{dx^2} = y$ which passes through the origin and the point $\brak{\ln 2, \frac{3}{4}}$
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $y = \frac{1}{2} e^x - e^{-x}$
+    \item $y = \frac{1}{2}\brak{e^x + e^{-x}}$
+    \item $y = \frac{1}{2}\brak{e^x - e^{-x}}$
+    \item $y = \frac{1}{2} e^x + e^{-x}$
+\end{enumerate}
+\end{multicols}
+
+
+
+    
+% Question 39
+\item The probability of obtaining at least two "SIX" in throwing a fair dice $4$ times is
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\frac{425}{432}$
+    \item $\frac{19}{144}$
+    \item $\frac{13}{144}$
+    \item $\frac{125}{432}$
+\end{enumerate}
+\end{multicols}
+\end{enumerate}
+\end{document}
