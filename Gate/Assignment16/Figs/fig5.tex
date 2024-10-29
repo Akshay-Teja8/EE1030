@@ -1,0 +1,18 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [line width=0.6pt, short] (7.5,17.25) -- (7.5,12.25);
+\draw [line width=0.6pt, short] (7.5,12.25) -- (16.25,12.25);
+\draw [line width=0.6pt, short] (7.5,14.75) -- (16.25,14.75);
+\node [font=\LARGE] at (6.75,16.75) {V};
+\node [font=\LARGE] at (6.75,14.75) {0};
+\node [font=\LARGE] at (16.5,11.75) {t};
+\foreach \x in {0,...,3}{
+  \draw [ line width=0.6pt] (7.5+\x*2.2222222222222223,14.75) -- ++(0,1.6) -- ++ (1.1111111111111112, 0) -- ++(0, -1.6) -- ++(1.1111111111111112,0);
+}
+\foreach \x in {0,...,3}{
+  \draw [ line width=0.6pt] (7.5+\x*2.2222222222222223,13.25) -- ++(0,1.6) -- ++ (1.1111111111111112, 0) -- ++(0, -1.6) -- ++(1.1111111111111112,0);
+}
+\end{circuitikz}
+}%
+

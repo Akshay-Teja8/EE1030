@@ -1,0 +1,167 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2015-EE-14-26}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 1
+\item Identical charges $q$ are placed at five vertices of a regular hexagon of side $a$. Find the electric field and electrostatic potential at the center of the hexagon.
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $0, 0$
+    \item $\frac{q}{4\pi\epsilon_o a^2}, \frac{q}{4\pi\epsilon_o a^2}$
+    \item $\frac{q}{4\pi\epsilon_o a^2}, \frac{5q}{4\pi\epsilon_o a^2}$
+    \item $\frac{\sqrt{5}q}{4\pi\epsilon_o a^2}, \frac{\sqrt{5}q}{4\pi\epsilon_o a^2}$
+\end{enumerate}
+\end{multicols}
+
+% Question 2
+\item A parallel plate capacitor with square plates of side $1$ m, separated by $1$ micrometer is filled with a medium of dielectric constant $10$If the charges on two plates are $1$ C and $-1$ C, the voltage across the capacitor is \_\_\_\_\_\_\_ kV.(up to two decimal places). ($\epsilon_0 = 8.854\times10^{-12}$F/m)
+
+
+
+% Question 3
+\item Light is incident from a medium of refractive index $n = 1.5$ onto vacuum. Find the smallest angle of incidence for which the light is not transmitted into the vacuum is \_\_\_\_\_\_\_ degrees.(up to two decimal places).
+
+% Question 4
+\item A monochromatic plane wave in free space with an electric field amplitude of $1$ V/m is normally incident on a fully reflecting mirror. The pressure exerted on the mirror is \_\_\_\_\_\_\_$\times10^{-12}$ Pa.(up to two decimal places). ($\epsilon_0 = 8.854\times10^{-12}$F/m)
+
+
+% Question 5
+\item The best resolution that a 7-bit A/D converter with a 5 V full scale can achieve is \_\_\_\_\_\_\_ mV.(up to two decimal places).
+
+
+% Question 6
+\item In the figure given below, the input to the primary of the transformer is a voltage varying sinusoidally with time. The resistor R is connected to the center tap of the secondary. Which on of the following plots represents the voltage across the resistor R as a function of time?
+\begin{center}
+    \input{Figs/fig.tex}
+\end{center}
+\begin{multicols}{2}
+    \begin{enumerate}
+        \item \input{Figs/fig2.tex}
+        \item \input{Figs/fig3.tex}
+        \item \input{Figs/fig4.tex}
+        \item \input{Figs/fig5.tex}
+    \end{enumerate}
+\end{multicols}
+
+% Question 7
+\item The atomic mass and mass density of Sodium are $23$ and $0.968$ g/cm$^3$, respectively. The number density of valence electrons is \_\_\_\_\_\_\_$\times10^{22}$cm$^3$.(up to two decimal places).\\
+(Avagadro number, $N_A = 6.023\times10^{23}$).
+
+% Question 8
+\item Consider a one-dimensional lattice with a weak periodic potential $U\brak{x} = U_{0} \cos\brak{\frac{2\pi x}{a}}$ and a gap at the edge of the Brillouin zone where $\brak{k = \frac{\pi}{a}}$ is:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $U_{0}$
+    \item $\frac{U_{0}}{2}$
+    \item $2U_{0}$
+    \item $\frac{U_{0}}{4}$
+\end{enumerate}
+\end{multicols}
+
+    
+% Question 9
+\item Consider a triatomic molecule of the shape shown in the figure below in three dimensions. The heat capacity of this molecule at high temperature (temperature much higher than the vibrational and rotational energy scales of the molecule but lower than its bond dissociation energies) is:
+\begin{center}
+    \input{Figs/fig6.tex}
+\end{center}
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\frac{3}{2}k_{B}$
+    \item $2k_{B}$
+    \item $\frac{9}{2}k_{B}$
+    \item $6k_{B}$
+\end{enumerate}
+\end{multicols}
+
+% Question 10
+\item If the Lagrangian $L_0 = \frac{1}{2}m\brak{\frac{dq}{dt}}^2 - \frac{1}{2}m\omega^2q^2$ is modified to $L = L_0 + \alpha q\brak{\frac{dq}{dt}}$, which one of the following is TRUE?
+\begin{enumerate}
+    \item Both the canonical momentum and equation of motion do not change
+    \item Canonical momentum changes, equation of motion does not change
+    \item Canonical momentum does not change, equation of motion changes
+    \item Both the canonical momentum and equation of motion change
+\end{enumerate}
+
+
+% Question 11
+\item Two identical masses of $10 \, \text{g}$ each are connected by a massless spring of spring constant $1 \, \text{N/m}$. The non-zero angular eigenfrequency of the system is \_\_\_\_\_ rad/s. (up to two decimal places).
+
+
+% Question 12
+\item The phase space trajectory of an otherwise free particle bouncing between two hard walls elastically in one dimension is a
+\begin{multicols}{4}
+\begin{enumerate}
+    \item straight line
+    \item parabola
+    \item rectangle
+    \item circle
+\end{enumerate}
+\end{multicols}
+
+
+% Question 13
+\item The Poisson bracket $\sbrak{x, xp_y + yp_x}$ is equal to:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $-x$
+    \item $y$
+    \item $2p_x$
+    \item $p_y$
+\end{enumerate}
+\end{multicols}
+\end{enumerate}
+\end{document}
