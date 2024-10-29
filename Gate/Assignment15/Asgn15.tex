@@ -1,0 +1,213 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2015-EE-14-26}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 1
+\item The matrix P is the inverse of a matrix Q. If I denotes the identity matrix, which one of the following options is correct?
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item PQ = I but QP $\ne$ I
+        \item QP = I but PQ $\ne$ I
+        \item PQ = I and QP = I
+        \item PQ - QP = I
+    \end{enumerate}
+\end{multicols}
+
+% Question 2
+\item The number of parameters in the univariate exponential and Gaussian distributions, respectively, are:
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $2$ and $2$
+        \item $1$ and $2$
+        \item $2$ and $1$
+        \item $1$ and $1$
+    \end{enumerate}
+\end{multicols}
+
+
+% Question 3
+\item Let $x$ be a continuous variable defined over the interval $\brak{-\infty, \infty}$ and $f\brak{x} = e^{-x - e^{-x}}$. The integral $g\brak{x} = \int f\brak{x} \, dx$ is equal to:
+    \begin{multicols}{4}
+        \begin{enumerate}
+            \item $e^{e^{-x}}$
+            \item $e^{-e^{-x}}$
+            \item $e^{-e^{x}}$
+            \item $e^{-x}$
+        \end{enumerate}
+    \end{multicols}
+    
+% Question 4
+\item An elastic bar of length $Z$, uniform cross-sectional area $A$, coefficient of thermal expansion $\alpha$, and Young's modulus $E$ is fixed at the two ends. The temperature of the bar is increased by $T$, resulting in an axial stress $\sigma$. Keeping all other parameters unchanged, if the length of the bar is doubled, the axial stress would be:
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $\sigma$
+        \item $2\sigma$
+        \item $0.5 \sigma$
+        \item $0.25 \alpha \sigma$
+    \end{enumerate}
+\end{multicols}
+
+% Question 5
+\item Statement: A simply supported beam is subjected to a uniformly distributed load. Which one of the following statements is true?
+\begin{enumerate}
+    \item Maximum or minimum shear force occurs where the curvature is zero.
+    \item Maximum or minimum bending moment occurs where the shear force is zero.
+    \item Maximum or minimum bending moment occurs where the curvature is zero.
+    \item Maximum bending moment and maximum shear force occur at the same section.
+\end{enumerate}
+
+% Question 6
+\item According to IS 456-2000, which one of the following statements about the depth of neutral axis $x_{u,bal}$ for a balanced reinforced concrete section is correct?
+    \begin{enumerate}
+        \item $x_{u,bal}$ depends on the grade of concrete only.
+        \item $x_{u,bal}$ depends on the grade of steel only.
+        \item $x_{u,bal}$ depends on both the grade of concrete and grade of steel.
+        \item $x_{u,bal}$ does not depend on the grade of concrete and grade of steel.
+    \end{enumerate}
+
+
+
+% Question 7
+\item The figure shows a two-hinged parabolic arch of span $L$ subjected to a uniformly distributed load of intensity $q$ per unit length. 
+\begin{center}
+    \input{Figs/fig.tex}
+\end{center}
+The maximum bending moment in the arch is ewual to
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $\frac{qL^2}{8}$
+        \item $\frac{qL^2}{12}$
+        \item zero
+        \item $\frac{qL^2}{10}$
+    \end{enumerate}
+\end{multicols}
+
+% Question 8
+ \item Group I lists the type of gain or loss of strength in soils. Group II lists the property or process responsible for the loss or gain of strength in soils.
+\begin{table}[h!]
+    \centering
+    \input{Tables/table.tex}
+    \label{tab:CE-2017}
+\end{table}\\
+The correct match between group I and group II is
+\begin{multicols}{2}
+ \begin{enumerate}
+        \item P-4, Q-1, R-2, S-3
+        \item P-3, Q-1, R-2, S-4
+        \item P-3, Q-2, R-1, S-4
+        \item P-4, Q-2, R-1, S-3
+    \end{enumerate}
+\end{multicols}
+
+    
+% Question 9
+\item A soil sample is subjected to a hydrostatic pressure, $\sigma$. The Mohr circle for any point in the soil sample would be:
+    \begin{enumerate}
+        \item a circle of radius $\sigma$ and center at the origin
+        \item a circle of radius $\sigma$ and center at a distance $\sigma$ from the origin
+        \item a point at a distance $\sigma$ from the origin
+        \item a circle of diameter $\sigma$ and center at the origin
+    \end{enumerate}
+
+% Question 10
+\item A strip footing is resting on the ground surface of a pure clay bed having an undrained cohesion $C_u$. The ultimate bearing capacity of the footing is equal to:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $2\pi C_u$
+    \item $\pi C_u$
+    \item $\brak{\pi + 1} C_u$
+    \item $\brak{\pi + 2} C_u$
+\end{enumerate}
+\end{multicols}
+
+
+% Question 11
+\item A uniformly distributed line load of $500$ kN/m is acting on the ground surface. Based on Boussinesq's theory, the ratio of vertical stress at a depth $2$ m to that at $4$ m, right below the line of loading, is:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $0.25$
+    \item $0.5$
+    \item $2.0$
+    \item $4.0$
+\end{enumerate}
+\end{multicols}
+
+% Question 12
+\item For a steady incompressible laminar flow between two infinite parallel stationary plates, the shear stress variation is:
+\begin{multicols}{2}
+\begin{enumerate}
+    \item linear with zero value at the plates
+    \item linear with zero value at the center
+    \item quadratic with zero value at the plates
+    \item quadratic with zero value at the center
+\end{enumerate}
+\end{multicols}
+
+
+% Question 13
+\item Statement: The reaction rate involving reactants $A$ and $B$ is given by $-k[A]^{\alpha}[B]^{\beta}$. Which one of the following statements is valid for the reaction to be a first-order reaction?
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\alpha = 0$ and $\beta = 0$
+    \item $\alpha = 1$ and $\beta = 0$
+    \item $\alpha = 1$ and $\beta = 1$
+    \item $\alpha = 1$ and $\beta = 2$
+\end{enumerate}
+\end{multicols}
+\end{enumerate}
+\end{document}
+
