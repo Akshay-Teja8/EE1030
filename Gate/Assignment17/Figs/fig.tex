@@ -1,0 +1,25 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (12,13) to[D] (12,16.75);
+\draw (9,16.75) to[short] (13.25,16.75);
+\draw (9,13) to[short] (13.25,13);
+\draw (10.75,13) to[D] (10.75,14.75);
+\draw (10.75,14.75) to[D] (10.75,16.75);
+\draw (10.75,14.75) to[sinusoidal voltage source, sources/symbol/rotate=auto] (9,14.75);
+\draw (9,14.75) to[D] (9,16.75);
+\draw (9,13) to[D] (9,14.75);
+\draw [->, >=Stealth] (13.25,16.75) -- (13.25,15.75);
+\draw  (13,15.5) rectangle (13.5,13.75);
+\draw (13.25,13.75) to[short] (13.25,13);
+\draw (13.25,15.5) to[short] (13.25,16.25);
+\node [font=\normalsize] at (13.25,15.25) {L};
+\node [font=\normalsize] at (13.25,14.8) {O};
+\node [font=\normalsize] at (13.25,14.5) {A};
+\node [font=\normalsize] at (13.25,14) {D};
+\node [font=\large] at (12.75,16) {$i_0$};
+\node [font=\large] at (13.75,15.5) {$+$};
+\node [font=\large] at (13.75,13.75) {$-$};
+\end{circuitikz}
+}%
+
