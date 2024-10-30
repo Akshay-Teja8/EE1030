@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  28 OCT 2024 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  30 OCT 2024 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1891,11 +1891,11 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/base/8r.enc}] (./Figs/fig.tex) (./Figs/fig2.tex
+f-dist/fonts/enc/dvips/base/8r.enc}] (./figs/fig.tex) (./figs/fig2.tex
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 23.
-) (./Figs/fig3.tex)
-(./Figs/fig4.tex) (./Figs/fig5.tex) (./Figs/fig6.tex) (./Figs/figur.tex)
-[2] (./Figs/figure.tex) [3] (./Asgn14.aux)
+) (./figs/fig3.tex)
+(./figs/fig4.tex) (./figs/fig5.tex) (./figs/fig6.tex) (./figs/figur.tex)
+[2] (./figs/figure.tex) [3] (./Asgn14.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
