@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  30 OCT 2024 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1856,7 +1856,7 @@ Package hyperref Info: Link coloring OFF on input line 37.
 \openout5 = `Asgn4.out'.
 
 \c@lstlisting=\count399
- (./Table/table.tex
+ (./tables/table.tex
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
 
 
@@ -1890,7 +1890,7 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)) (./Fig/fig.tex)
+)) (./figs/fig.tex)
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}] [2] (./Asgn4.aux)
  ***********
@@ -1902,7 +1902,7 @@ Package rerunfilecheck Info: File `Asgn4.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  53523 strings out of 474222
- 1269460 string characters out of 5748734
+ 1269472 string characters out of 5748734
  1960975 words of memory out of 5000000
  74887 multiletter control sequences out of 15000+600000
  637630 words of font info for 205 fonts, out of 8000000 for 9000
