@@ -1,0 +1,126 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2018-PH-53-65}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+
+% Question 1
+\item For the transformation $$Q = \sqrt{2q} \, e^{-1+2\alpha} \cos p,\, P = \sqrt{2q} \, e^{\alpha-1} \sin p$$
+
+(where $\alpha$ is a constant) to be canonical, the value of $\alpha$ is \_\_\_\_\_.
+\hfill \brak{2018}
+
+% Question 2
+\item Given $$\frac{d^2 f\brak{x}}{dx^2} - 2 \frac{df\brak{x}}{dx} + f\brak{x} = 0,$$
+and boundary conditions $f\brak{0} = 1$ and $f\brak{1} = 0$, the value of $f\brak{0.5}$ is \_\_\_\_\_ (up to two decimal places).\hfill \brak{2018}
+
+
+
+% Question 3
+\item The absolute value of the integral $$\int \frac{5z^3 + 3z^2}{z^2 - 4} \, dz,$$
+over the circle $\abs{z - 1.5} = 1$ in the complex plane, is \_\_\_\_\_\_ (up to two decimal places).\hfill \brak{2018}
+
+
+% Question 4
+\item A uniform circular disc of mass $m$ and radius $R$ is rotating with angular speed $\omega$ about an axis passing through its center and making an angle $\theta = 30\degree$ with the axis of the disc. If the kinetic energy of the disc is $\alpha m \omega^2 R^2$, the value of $\alpha$ is \_\_\_\_\_\_ (up to 2 decimal places).\hfill \brak{2018}
+\begin{center}
+    \input{figs/fig.tex}
+\end{center}
+
+% Question 5
+\item The ground state energy of a particle of mass $m$ in an infinite potential well is $E_0$. It changes to $E_0 \brak{1 + \alpha \times 10^{-3}}$ when there is a small potential bump of height $V_0 = \frac{\pi^2 \hbar^2}{50 m L^2}$ and width $a = \frac{L}{100}$, as shown in the figure. The value of $\alpha$ is \_\_\_\_\_\_ (up to two decimal places).\hfill \brak{2018}
+\begin{center}
+    \input{figs/fig2.tex}
+\end{center}
+
+% Question 6
+\item An electromagnetic plane wave is propagating with an intensity $I = 1.0 \times 10^5$ Wm$^2$ in a medium with $\varepsilon = 3\varepsilon_0$ and $\mu = \mu_0$. The amplitude of the electric field inside the medium is \_\_\_\_\_\_$ \times 10^3$ Vm$^{-1}$ (up to one decimal place).\hfill \brak{2018}
+$$
+\brak{\varepsilon_0 = 8.85 \times 10^{-12} {C}^2N^{-1}m^2, \, \mu_0 = 4\pi \times 10^{-7} \, N\cdot A^{-2}, \, c = 3 \times 10^8 \, ms^{-1}}
+$$
+
+% Question 7
+\item A microcanonical ensemble consists of 12 atoms with each taking either energy 0 state or energy $\varepsilon$ state. Both states are non-degenerate. If the total energy of this ensemble is $4\varepsilon$, its entropy will be \_\_\_\_\_\_\_$ k_B$ (up to one decimal place), where $k_g$ is the Boltzmann constant.\hfill \brak{2018}
+
+% Question 8
+\item A two-state quantum system has energy eigenvalues $\pm \varepsilon$ corresponding to the normalized states $|\psi \pm\rangle$. At time $t = 0$, the system is in quantum state $\frac{1}{\sqrt{2}}\brak{|\psi_+\rangle + |\psi_-\rangle}$. The probability that the system will be in the same state at $t = \frac{h}{\brak{6\varepsilon}}$ is \_\_\_\_\_ (up to two decimal places).\hfill \brak{2018}
+
+
+    
+% Question 9
+\item An air-conditioner maintains the room temperature at $27\degree$ C while the outside temperature is $47\degree$ C. The heat conducted through the walls of the room from outside to inside due to temperature difference is $7000$ W. The minimum work done by the compressor of the air-conditioner per unit time is \_\_\_\_\_ W.\hfill \brak{2018}
+
+% Question 10
+\item Two solid spheres $A$ and $B$ have the same emissivity. The radius of $A$ is four times the radius of $B$, and the temperature of $A$ is twice the temperature of $B$. The ratio of the rate of heat radiated from $A$ to that from $B$ is \_\_\_\_\_.\hfill \brak{2018}
+
+
+% Question 11
+\item The partition function of an ensemble at a temperature $T$ is: $$Z = \brak{ 2 \cosh\brak{\frac{\varepsilon}{k_B T}} }^N$$
+
+where $k_B$ is the Boltzmann constant. The heat capacity of this ensemble at $T = \frac{\varepsilon}{k_B}$ is $X N k_B$, where the value of $X$ is \_\_\_\_\_ (up to two decimal places).\hfill \brak{2018}
+
+
+
+% Question 12
+\item An atom in its singlet state is subjected to a magnetic field. The Zeeman splitting of its $650$ nm spectral line is $0.03$ nm. The magnitude of the field is \_\_\_\_\_ Tesla (up to two decimal places). 
+$$\brak{e = 1.60 \times 10^{-19} \,C,\, m_e = 9.11 \times 10^{-31} \, kg, \, c = 3.0 \times 10^8 \, ms^{-1}}$$
+\hfill \brak{2018}
+
+% Question 13
+\item The quantum effects in an ideal gas become important below a certain temperature $T_0$ when the de Broglie wavelength corresponding to the root mean square thermal speed becomes equal to the inter-atomic separation. For such a gas of atoms of mass $2 \times 10^{-26}$ kg and number density $6.4 \times 10^{25}$ m$^{-3}$, $T_Q =$ \_\_\_\_\_\_$\times 10^{-3}$ K (up to one decimal place).  \hfill \brak{2018}
+
+$$\brak{k_B = 1.38 \times 10^{-23} \, J/K,\, h = 6.6 \times 10^{-34} \, J\cdot s}$$
+\end{enumerate}
+\end{document}
