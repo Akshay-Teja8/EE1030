@@ -1,0 +1,45 @@
+\resizebox{0.3\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw [line width=0.5pt, short] (7,17.5) -- (16.25,17.5);
+\draw [line width=0.5pt, short] (7,18) -- (7.5,17.5);
+\draw [line width=0.5pt, short] (7.5,18) -- (8,17.5);
+\draw [line width=0.5pt, short] (8,18) -- (8.5,17.5);
+\draw [line width=0.5pt, short] (8.5,18) -- (9,17.5);
+\draw [line width=0.5pt, short] (9,18) -- (9.5,17.5);
+\draw [line width=0.5pt, short] (9.5,18) -- (10,17.5);
+\draw [line width=0.5pt, short] (10,18) -- (10.5,17.5);
+\draw [line width=0.5pt, short] (10.5,18) -- (11,17.5);
+\draw [line width=0.5pt, short] (11,18) -- (11.5,17.5);
+\draw [line width=0.5pt, short] (11.5,18) -- (12,17.5);
+\draw [line width=0.5pt, short] (12,18) -- (12.5,17.5);
+\draw [line width=0.5pt, short] (12.5,18) -- (13,17.5);
+\draw [line width=0.5pt, short] (13,18) -- (13.5,17.5);
+\draw [line width=0.5pt, short] (13.5,18) -- (14,17.5);
+\draw [line width=0.5pt, short] (14,18) -- (14.5,17.5);
+\draw [line width=0.5pt, short] (14.5,18) -- (15,17.5);
+\draw [line width=0.5pt, short] (15,18) -- (15.5,17.5);
+\draw [line width=0.5pt, short] (15.5,18) -- (16,17.5);
+\draw [short] (8.25,17.5) -- (8.25,15.75);
+\begin{scope}[rotate around={-90:(8.25,15.75)}]
+\foreach \x in {0,...,4}{
+  \draw  (8.25+\x*0.47846889952153115,15.75) -- ++(0.23923444976076558,0.3) -- ++ (0.23923444976076558, -0.3);
+}
+\end{scope}
+\draw [short] (8.25,13.5) -- (8.25,12);
+\draw [short] (15.5,17.5) -- (15.5,15.75);
+\begin{scope}[rotate around={-90:(15.5,15.75)}]
+\foreach \x in {0,...,4}{
+  \draw  (15.5+\x*0.47846889952153115,15.75) -- ++(0.23923444976076558,0.3) -- ++ (0.23923444976076558, -0.3);
+}
+\end{scope}
+\draw [short] (15.5,13.5) -- (15.5,12);
+\draw [ fill={rgb,255:red,154; green,153; blue,150} ] (8.25,12) rectangle (15.5,11.25);
+\node [font=\Large] at (12,12.5) {m};
+\node [font=\Large] at (12,10.5) {l};
+\node [font=\Large] at (8.75,14.75) {k};
+\node [font=\Large] at (15.25,14.75) {k};
+\draw [<->, >=Stealth] (8.25,11) -- (15.5,11);
+\end{circuitikz}
+}%
+

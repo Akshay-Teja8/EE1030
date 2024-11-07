@@ -1,0 +1,168 @@
+\documentclass[journal,9pt,onecolumn]{IEEEtran}
+\usepackage[a5paper, margin=8mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2022-AE-53-65}
+\author{AI24BTECH11002 - K. Akshay Teja}
+\maketitle
+ %\newpage
+ \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+\setcounter{enumi}{52}
+% Question 53
+\item In a converging duct, the area and velocity at section $P$ are 1 m$^2$ and 15 m/s, respectively. The temperature of the fluid is 300 K.
+
+    Air flow through the nozzle can be assumed to be inviscid and isothermal. The characteristic gas constant is 287 J/(kg-K) and the ratio of specific heats is 1.4 for air.
+
+    To ensure that the air flow remains incompressible (Mach number, $M \leq 0.3$) in the duct, the minimum area required at section $Q$ is $\underline{\hspace{1cm}}$ m$^2$ (rounded off to two decimal places).  
+\begin{center}
+    \input{figs/fig.tex}
+\end{center}
+
+% Question 54
+\item Consider a thin symmetric airfoil at 2 degree angle of attack in a uniform flow at 50 m/s. The pitching moment coefficient about its leading edge is $\underline{\hspace{1cm}}$ (rounded off to three decimal places).
+
+
+
+% Question 55
+ \item A convergent-divergent nozzle with adiabatic walls is designed for an exit Mach number of 2.3. It is discharging air to the atmosphere under the conditions indicated in the figure.
+
+    Flow through the nozzle is inviscid, the characteristic gas constant for air is 287 J/(kg-K), and $\gamma = 1.4$.
+
+    When the reservoir pressure is 25 bar (absolute), and temperature is 300 K, Prandtl-Meyer expansion waves appear at the nozzle exit as shown.
+
+    The minimum percentage change in the reservoir pressure required to eliminate the wave system at the nozzle exit under steady state is $\underline{\hspace{1cm}}$\%.  
+\begin{center}
+    \input{figs/fig2.tex}
+\end{center}
+
+
+% Question 56
+\item A conventional airplane of mass 5000 kg is doing a level turn of radius 1000 m at a constant speed of 100 m/s at sea level.
+
+Taking the acceleration due to gravity as 10 m/s$^2$, the bank angle of the airplane is $\underline{\hspace{1cm}}$ degrees.
+
+% Question 57
+\item Given: The tip deflection and tip slope for a tip-loaded cantilever of length $L$ are: $\frac{NL^3}{3EI} $ and $\frac{NL^2}{2EI},$
+    respectively, where $N$ is the tip force and $EI$ is the flexural rigidity.
+
+    A cantilever $PQ$ of rectangular cross-section is subjected to a transverse load, $F$, at its mid-point. Two cases are considered as shown in the figure. In Case I, the end $Q$ is free, and in Case II, $Q$ is simply supported.
+
+    The ratio of the magnitude of the maximum bending stress at $P$ in Case I to that in Case II is $\underline{\hspace{1cm}}$  (rounded off to one decimal place).  
+\begin{multicols}{2}
+    \input{figs/fig3.tex}
+    \input{figs/fig4.tex}
+\end{multicols}
+
+% Question 58
+\item A simply supported Aluminum column of length 1 m and rectangular cross-section $w \times t$ with $t \leq w$, is subjected to axial compressive loading.
+
+    Young's modulus is 70 GPa. The yield stress under uniaxial compression is 120 MPa.
+
+    The value of $t$ at which the failure load for yielding and buckling coincide is $\underline{\hspace{1cm}}$ mm.
+
+% Question 59
+\item A 0.5 m long thin-walled circular shaft of radius 2 cm is to be designed for an axial load of 7.4 kN and a torque of 148 Nm applied at its tip, as shown in the figure.
+
+The allowable stress under uniaxial tension is 100 MPa.
+
+Using the maximum principal stress criterion, the minimum thickness, $t$, of the shaft so that it does not fail is $\underline{\hspace{1cm}}$ mm (rounded off to the nearest integer).  
+\begin{center}
+    \input{figs/fig5.tex}
+\end{center}
+% Question 60
+\item A 10 kN axial load is applied eccentrically on a rod of square cross-section (1 cm x 1 cm) as shown in the figure.
+
+The strains measured by the two strain gauges attached to the top and bottom surfaces at a distance of 0.5 m from the tip are $\epsilon_1 = 0.0016$ and $\epsilon_2 = 0.0004$, respectively.  
+
+The eccentricity in loading, $e$ is $\underline{\hspace{1cm}}$ mm. 
+\begin{center}
+    \input{figs/fig6.tex}
+\end{center}
+% Question 61
+\item For a thin-walled I-section, the width of the two flanges as well as the web height are the same, i.e., $2b = 20$ mm. Thickness is 0.6 mm.
+
+The second moment of area about a horizontal axis passing through the centroid is $\underline{\hspace{1cm}}$ mm$^4$.  
+\begin{center}
+    \input{figs/figur.tex}
+\end{center}
+% Question 62
+\item A damper with damping coefficient, $c$, is attached to a mass of 5 kg and a spring of stiffness 5 kN/m as shown in the figure. The system undergoes under-damped oscillations.
+
+If the ratio of the 3$^{rd}$ amplitude to the 4$^{th}$ amplitude of oscillations is 1.5, the value of $c$ is $\underline{\hspace{1cm}}$ Ns/m (rounded off to the nearest integer).  
+\begin{center}
+    \input{figs/figure.tex}
+\end{center}
+% Question 63
+\item A uniform rigid prismatic bar of total mass $m$ is suspended from a ceiling by two identical springs as shown in the figure.
+
+Let $\omega_1$ and $\omega_2$ be the natural frequencies of mode I and mode II respectively ($\omega_1 < \omega_2$).  
+
+The value of $\omega_2/\omega_1$ is $\underline{\hspace{1cm}}$ (rounded off to one decimal place).
+\begin{center}
+    \input{figs/figure1.tex}
+\end{center}
+% Question 64
+\item An ideal ramjet is to operate with exhaust gases optimally expanded to ambient pressure at an altitude where temperature is 220 K. The exhaust speed at the nozzle exit is 1200 m/s at a temperature of 1100 K.
+
+Given: $\gamma = 1.4$ at 220 K; $R = 287$ J/(kg-K) for air, $\gamma = 1.33$ at 1100 K; $R = 287$ J/(kg-K) for exhaust gases.
+
+The cruise speed of this ramjet is $\underline{\hspace{1cm}}$ m/s (rounded off to the nearest integer).  
+
+% Question 65
+\item A multistage axial compressor takes in air at 1 atm, 300 K, and compresses it to a minimum of 5 atm.
+
+The mean blade speed is 245 m/s and the work coefficient, $\frac{\Delta C_\theta}{U}$, is 0.55 for each stage.  
+
+For air, use $C_p = 1005$ J/(kg-K), $R = 287$ J/(kg-K), and $\gamma = 1.4$.
+
+If the compression is isentropic, the number of stages required is $\underline{\hspace{1cm}}$ (rounded off to the next higher integer).
+\end{enumerate}
+\end{document}

@@ -1,0 +1,17 @@
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw [line width=0.8pt, short] (16,16.25) -- (16,13.25);
+\draw [line width=0.8pt, short] (16,15.25) -- (8.5,15.25);
+\draw [line width=0.8pt, short] (16,14.25) -- (8.5,14.25);
+\draw [ line width=0.8pt ] (8.5,14.75) ellipse (0.25cm and 0.5cm);
+\draw [line width=0.8pt, ->, >=Stealth] (8.5,14.75) -- (7.25,14.75);
+\node [font=\Large] at (6.45,14.75) {7.4 kN};
+\node [font=\Large] at (12.75,13.75) {0.5 m};
+\draw [line width=0.8pt, ->, >=Stealth] (8.25,14) .. controls (9.5,12.75) and (9.5,16.5) .. (8.25,15.5) ;
+\draw [ line width=0.8pt ] (17.25,14.75) circle (0.5cm);
+\node [font=\Large] at (18.75,14.75) {4 cm};
+\draw [line width=0.8pt, <->, >=Stealth, dashed] (18,15.25) -- (18,14.25);
+\end{circuitikz}
+}%
+
