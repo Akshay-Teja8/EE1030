@@ -13,7 +13,6 @@ R = np.fromstring(output[2].replace('R ',''),sep=' ')
 store=np.genfromtxt(output[3:],delimiter='')
 x_values,y_values,z_values = store.T
 
-
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 

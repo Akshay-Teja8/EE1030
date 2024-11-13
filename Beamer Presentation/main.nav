@@ -11,12 +11,12 @@
 \headcommand {\beamer@subsectionpages {3}{3}}
 \headcommand {\sectionentry {2}{Solution}{4}{Solution}{0}}
 \headcommand {\beamer@subsectionpages {4}{3}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Variable Description}}
-\headcommand {\slideentry {2}{1}{1}{4/4}{Variable Description}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Collinearity Condition}}
+\headcommand {\slideentry {2}{1}{1}{4/4}{Collinearity Condition}{0}}
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{5}{Collinearity Condition}}
-\headcommand {\slideentry {2}{2}{1}{5/5}{Collinearity Condition}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{5}{Vector Calculation}}
+\headcommand {\slideentry {2}{2}{1}{5/5}{Vector Calculation}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@subsectionpages {5}{5}}
 \headcommand {\beamer@subsectionentry {0}{2}{3}{6}{Matrix and Row Reduction}}
@@ -33,16 +33,16 @@
 \headcommand {\beamer@subsectionpages {7}{8}}
 \headcommand {\sectionentry {4}{Codes}{9}{Codes}{0}}
 \headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{9}{Generating points on line using C}}
-\headcommand {\slideentry {4}{1}{1}{9/9}{Generating points on line using C}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{9}{Generating Points on Line using C}}
+\headcommand {\slideentry {4}{1}{1}{9/9}{Generating Points on Line using C}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {4}{1}{1}{9/10}{Generating points on line using C}{0}}
+\headcommand {\slideentry {4}{1}{1}{9/10}{Generating Points on Line using C}{0}}
 \headcommand {\beamer@framepages {9}{10}}
 \headcommand {\beamer@subsectionpages {9}{10}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{11}{Plotting the figure using Python}}
-\headcommand {\slideentry {4}{2}{1}{11/11}{Plotting the figure using Python}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{11}{Plotting the Figure using Python}}
+\headcommand {\slideentry {4}{2}{1}{11/11}{Plotting the Figure using Python}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {4}{2}{1}{11/12}{Plotting the figure using Python}{0}}
+\headcommand {\slideentry {4}{2}{1}{11/12}{Plotting the Figure using Python}{0}}
 \headcommand {\beamer@framepages {11}{12}}
 \headcommand {\beamer@partpages {1}{12}}
 \headcommand {\beamer@subsectionpages {11}{12}}

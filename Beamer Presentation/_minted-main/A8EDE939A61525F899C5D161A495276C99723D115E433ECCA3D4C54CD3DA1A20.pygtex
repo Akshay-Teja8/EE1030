@@ -14,7 +14,6 @@
 \PYG{n}{store}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{genfromtxt}\PYG{p}{(}\PYG{n}{output}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{:],}\PYG{n}{delimiter}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{)}
 \PYG{n}{x\PYGZus{}values}\PYG{p}{,}\PYG{n}{y\PYGZus{}values}\PYG{p}{,}\PYG{n}{z\PYGZus{}values} \PYG{o}{=} \PYG{n}{store}\PYG{o}{.}\PYG{n}{T}
 
-
 \PYG{n}{fig} \PYG{o}{=} \PYG{n}{plt}\PYG{o}{.}\PYG{n}{figure}\PYG{p}{()}
 \PYG{n}{ax} \PYG{o}{=} \PYG{n}{fig}\PYG{o}{.}\PYG{n}{add\PYGZus{}subplot}\PYG{p}{(}\PYG{l+m+mi}{111}\PYG{p}{,} \PYG{n}{projection}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}3d\PYGZsq{}}\PYG{p}{)}
 
